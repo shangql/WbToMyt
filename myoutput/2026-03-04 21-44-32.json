@@ -1,0 +1,3670 @@
+{
+    "env": [
+        {
+            "id": 0,
+            "name": "GL_VERSION",
+            "description": 7938,
+            "value": "OpenGL ES-CM 1.1"
+        },
+        {
+            "id": 0,
+            "name": "GL_RENDERER",
+            "description": 7937,
+            "value": "Qualcomm"
+        },
+        {
+            "id": 0,
+            "name": "GL_VENDOR",
+            "description": 7936,
+            "value": "Adreno (TM) 732"
+        },
+        {
+            "id": 0,
+            "name": "RADIO_VERSION",
+            "description": "ro.radio.noril",
+            "value": "Q_V1_P14,Q_V1_P14"
+        },
+        {
+            "id": 0,
+            "name": "LCDX",
+            "description": "LCDX",
+            "value": "1264"
+        },
+        {
+            "id": 0,
+            "name": "LCDY",
+            "description": "LCDY",
+            "value": "2780"
+        },
+        {
+            "id": 0,
+            "name": "LCDXdpi",
+            "description": "LCDXdpi",
+            "value": "452.1910095214844"
+        },
+        {
+            "id": 0,
+            "name": "LCDYdpi",
+            "description": "LCDYdpi",
+            "value": "449.7569885253906"
+        },
+        {
+            "id": 0,
+            "name": "density",
+            "description": "density",
+            "value": "3"
+        },
+        {
+            "id": 0,
+            "name": "densityDpi",
+            "description": "densityDpi",
+            "value": "560"
+        },
+        {
+            "id": 0,
+            "name": "WIDEVINE",
+            "description": "ID",
+            "value": "UPL6.250902.006"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "gsm.version.baseband",
+            "value": "UPL6.250902.006",
+            "gsm.version.baseband": "UPL6.250902.006"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "init.svc.vendor-sensor-sh",
+            "value": "stopped",
+            "init.svc.vendor-sensor-sh": "stopped"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "rild.libpath",
+            "value": "/vendor/lib64/libril-qc-hal-qmi.so",
+            "rild.libpath": "/vendor/lib64/libril-qc-hal-qmi.so"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.actionable_compatible_property.enabled",
+            "value": "true",
+            "ro.actionable_compatible_property.enabled": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.allow.mock.location",
+            "value": "0",
+            "ro.allow.mock.location": "0"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.apex.updatable",
+            "value": "true",
+            "ro.apex.updatable": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.appsflyer.preinstall.path",
+            "value": "/data/etc/appchannel/pre_install.appsflyer",
+            "ro.appsflyer.preinstall.path": "/data/etc/appchannel/pre_install.appsflyer"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.audio.asyncdump.support",
+            "value": "arm64-v8a,armeabi-v7a,armeabi",
+            "ro.audio.asyncdump.support": "arm64-v8a,armeabi-v7a,armeabi"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.audio.spatializer_type",
+            "value": "oplus",
+            "ro.audio.spatializer_type": "oplus"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.baseband",
+            "value": "msm",
+            "ro.baseband": "msm"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.bluetooth.leaudio_offload.supported",
+            "value": "arm64-v8a,armeabi-v7a,armeabi",
+            "ro.bluetooth.leaudio_offload.supported": "arm64-v8a,armeabi-v7a,armeabi"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.bluetooth.library_name",
+            "value": "libbluetooth_qti.so",
+            "ro.bluetooth.library_name": "libbluetooth_qti.so"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.board.api_level",
+            "value": "34",
+            "ro.board.api_level": "34"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.board.first_api_level",
+            "value": "34",
+            "ro.board.first_api_level": "34"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.board.platform",
+            "value": "pineapple",
+            "ro.board.platform": "pineapple"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.ab_update",
+            "value": "true",
+            "ro.build.ab_update": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.backported_fixes.alias_bitset.long_list",
+            "value": "2",
+            "ro.build.backported_fixes.alias_bitset.long_list": "2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.characteristics",
+            "value": "nosdcard",
+            "ro.build.characteristics": "nosdcard"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.date",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.build.date": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.date.Ymd",
+            "value": "250913",
+            "ro.build.date.Ymd": "250913"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.date.YmdHM",
+            "value": "202509131241",
+            "ro.build.date.YmdHM": "202509131241"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.date.utc",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.build.date.utc": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.date.ymd",
+            "value": "250913",
+            "ro.build.date.ymd": "250913"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.description",
+            "value": "qssi-user 15 AP3A.240617.008 1757738020104 release-keys",
+            "ro.build.description": "qssi-user 15 AP3A.240617.008 1757738020104 release-keys"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.device_family",
+            "value": "NIC-LX2",
+            "ro.build.device_family": "NIC-LX2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.display.full_id",
+            "value": "UPL6.250902.006 release-keys",
+            "ro.build.display.full_id": "UPL6.250902.006 release-keys"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.display.id",
+            "value": "UPL6.250902.006",
+            "ro.build.display.id": "UPL6.250902.006"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.display.id.show",
+            "value": "UPL6.250902.006 release-keys",
+            "ro.build.display.id.show": "UPL6.250902.006 release-keys"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.display.ota",
+            "value": "UPL6.250902.006 release-keys",
+            "ro.build.display.ota": "UPL6.250902.006 release-keys"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.fingerprint",
+            "value": "HONOR/NIC-LX2/NIC-LX2:9/UPL6.250902.006/V481.0.4.0.OPUCXFH:user/release-keys",
+            "ro.build.fingerprint": "HONOR/NIC-LX2/NIC-LX2:9/UPL6.250902.006/V481.0.4.0.OPUCXFH:user/release-keys"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.flavor",
+            "value": "qssi-user",
+            "ro.build.flavor": "qssi-user"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.hardware.version",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.build.hardware.version": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.host",
+            "value": "HONOR-builder-fzwr-xw0h",
+            "ro.build.host": "HONOR-builder-fzwr-xw0h"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.id",
+            "value": "UPL6.250902.006",
+            "ro.build.id": "UPL6.250902.006"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.kernel.id",
+            "value": "UPL6.250902.006",
+            "ro.build.kernel.id": "UPL6.250902.006"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.master.date",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.build.master.date": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.oplus_ext_partitions",
+            "value": "my_engineering my_product my_heytap my_stock my_region my_carrier my_preload my_bigball my_company",
+            "ro.build.oplus_ext_partitions": "my_engineering my_product my_heytap my_stock my_region my_carrier my_preload my_bigball my_company"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.oplus_nv_id",
+            "value": "10010111",
+            "ro.build.oplus_nv_id": "10010111"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.product",
+            "value": "NIC-LX2",
+            "ro.build.product": "NIC-LX2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.release_type",
+            "value": "true",
+            "ro.build.release_type": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.tags",
+            "value": "release-keys",
+            "ro.build.tags": "release-keys"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.target_release",
+            "value": "next",
+            "ro.build.target_release": "next"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.type",
+            "value": "user",
+            "ro.build.type": "user"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.user",
+            "value": "compiler",
+            "ro.build.user": "compiler"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.version.all_codenames",
+            "value": "REL",
+            "ro.build.version.all_codenames": "REL"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.version.base_os",
+            "value": "null",
+            "ro.build.version.base_os": "null"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.version.codename",
+            "value": "REL",
+            "ro.build.version.codename": "REL"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.version.incremental",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.build.version.incremental": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.version.known_codenames",
+            "value": "Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake,VanillaIceCream",
+            "ro.build.version.known_codenames": "Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake,VanillaIceCream"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.version.min_supported_target_sdk",
+            "value": "28",
+            "ro.build.version.min_supported_target_sdk": "28"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.version.module.sub_api",
+            "value": "5",
+            "ro.build.version.module.sub_api": "5"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.version.oplus.api",
+            "value": "36",
+            "ro.build.version.oplus.api": "36"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.version.oplus.sub_api",
+            "value": "45",
+            "ro.build.version.oplus.sub_api": "45"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.version.oplusrom",
+            "value": "V15.0.2",
+            "ro.build.version.oplusrom": "V15.0.2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.version.oplusrom.confidential",
+            "value": "V15.0.2",
+            "ro.build.version.oplusrom.confidential": "V15.0.2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.version.oplusrom.display",
+            "value": "UPL6.250902.006 release-keys",
+            "ro.build.version.oplusrom.display": "UPL6.250902.006 release-keys"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.version.ota",
+            "value": "RMX3850_11.C.48_1480_202509151834",
+            "ro.build.version.ota": "RMX3850_11.C.48_1480_202509151834"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.version.preview_sdk",
+            "value": "0",
+            "ro.build.version.preview_sdk": "0"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.version.preview_sdk_fingerprint",
+            "value": "REL",
+            "ro.build.version.preview_sdk_fingerprint": "REL"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.version.realmeui",
+            "value": "V6.0",
+            "ro.build.version.realmeui": "V6.0"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.version.release",
+            "value": "9",
+            "ro.build.version.release": "9"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.version.release_or_codename",
+            "value": "9",
+            "ro.build.version.release_or_codename": "9"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.version.release_or_preview_display",
+            "value": "9",
+            "ro.build.version.release_or_preview_display": "9"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.build.version.security_patch",
+            "value": "2025-12-05",
+            "ro.build.version.security_patch": "2025-12-05"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.camera.enableCamera1MaxZsl",
+            "value": "1",
+            "ro.camera.enableCamera1MaxZsl": "1"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.camera.notify_nfc",
+            "value": "1",
+            "ro.camera.notify_nfc": "1"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.camera.privileged.3rdpartyApp",
+            "value": "com.mediatek.expert.mtkcamhelper;com.aiunit.aon;com.oplus.gesture;",
+            "ro.camera.privileged.3rdpartyApp": "com.mediatek.expert.mtkcamhelper;com.aiunit.aon;com.oplus.gesture;"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.carrier",
+            "value": "unknown",
+            "ro.carrier": "unknown"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.com.android.dataroaming",
+            "value": "false",
+            "ro.com.android.dataroaming": "false"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.com.baidu.searchbox",
+            "value": "/data/etc/appchannel/",
+            "ro.com.baidu.searchbox": "/data/etc/appchannel/"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.com.google.clientidbase",
+            "value": "android-oppo",
+            "ro.com.google.clientidbase": "android-oppo"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.com.google.gmsversion",
+            "value": "15_202503",
+            "ro.com.google.gmsversion": "15_202503"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.control_privapp_permissions",
+            "value": "enforce",
+            "ro.control_privapp_permissions": "enforce"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.dalvik.vm.enable_uffd_gc",
+            "value": "true",
+            "ro.dalvik.vm.enable_uffd_gc": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.dalvik.vm.native.bridge",
+            "value": "0",
+            "ro.dalvik.vm.native.bridge": "0"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.density.screenzoom.fdh",
+            "value": "380,408,480,540,540",
+            "ro.density.screenzoom.fdh": "380,408,480,540,540"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.density.screenzoom.qdh",
+            "value": "500,476,560,600,620",
+            "ro.density.screenzoom.qdh": "500,476,560,600,620"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.display.brightness.brightness.mode",
+            "value": "NIC-LX2",
+            "ro.display.brightness.brightness.mode": "NIC-LX2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.display.brightness.dobly.exit.rate",
+            "value": "8160",
+            "ro.display.brightness.dobly.exit.rate": "8160"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.display.brightness.region.slope.rm",
+            "value": "1",
+            "ro.display.brightness.region.slope.rm": "1"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.display.screen_type",
+            "value": "1",
+            "ro.display.screen_type": "1"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.display.underscreen.lightsensor.screenshot.period",
+            "value": "50",
+            "ro.display.underscreen.lightsensor.screenshot.period": "50"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.display.underscreen.lightsensor.support",
+            "value": "arm64-v8a,armeabi-v7a,armeabi",
+            "ro.display.underscreen.lightsensor.support": "arm64-v8a,armeabi-v7a,armeabi"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.dumpenvironment.time",
+            "value": "1722823151000",
+            "ro.dumpenvironment.time": "1722823151000"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.force.debuggable",
+            "value": "0",
+            "ro.force.debuggable": "0"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.frp.pst",
+            "value": "/dev/block/bootdevice/by-name/frp",
+            "ro.frp.pst": "/dev/block/bootdevice/by-name/frp"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.fuse.bpf.is_running",
+            "value": "true",
+            "ro.fuse.bpf.is_running": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.gfx.driver.1",
+            "value": "com.qualcomm.qti.gpudrivers.pineapple.api34",
+            "ro.gfx.driver.1": "com.qualcomm.qti.gpudrivers.pineapple.api34"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.hardware",
+            "value": "NIC-LX2",
+            "ro.hardware": "NIC-LX2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.hardware.camera",
+            "value": "oemlayer",
+            "ro.hardware.camera": "oemlayer"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.hardware.keystore_desede",
+            "value": "true",
+            "ro.hardware.keystore_desede": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.hardware.vulkan",
+            "value": "adreno",
+            "ro.hardware.vulkan": "adreno"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.hw.phone.color",
+            "value": "FFCDCAC5",
+            "ro.hw.phone.color": "FFCDCAC5"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.hwui.drop_shadow_cache_size",
+            "value": "6",
+            "ro.hwui.drop_shadow_cache_size": "6"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.hwui.gradient_cache_size",
+            "value": "1",
+            "ro.hwui.gradient_cache_size": "1"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.hwui.layer_cache_size",
+            "value": "48",
+            "ro.hwui.layer_cache_size": "48"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.hwui.path_cache_size",
+            "value": "32",
+            "ro.hwui.path_cache_size": "32"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.hwui.r_buffer_cache_size",
+            "value": "8",
+            "ro.hwui.r_buffer_cache_size": "8"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.hwui.text_large_cache_height",
+            "value": "1024",
+            "ro.hwui.text_large_cache_height": "1024"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.hwui.text_large_cache_width",
+            "value": "2048",
+            "ro.hwui.text_large_cache_width": "2048"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.hwui.text_small_cache_height",
+            "value": "1024",
+            "ro.hwui.text_small_cache_height": "1024"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.hwui.text_small_cache_width",
+            "value": "1024",
+            "ro.hwui.text_small_cache_width": "1024"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.hwui.texture_cache_flushrate",
+            "value": "0.4",
+            "ro.hwui.texture_cache_flushrate": "0.4"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.hwui.texture_cache_size",
+            "value": "72",
+            "ro.hwui.texture_cache_size": "72"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.hwui.use_vulkan",
+            "value": "",
+            "ro.hwui.use_vulkan": ""
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.iorapd.enable",
+            "value": "false",
+            "ro.iorapd.enable": "false"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.kernel.qemu.gles",
+            "value": "0",
+            "ro.kernel.qemu.gles": "0"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.kernel.version",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.kernel.version": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.launcher.blur.appLaunch",
+            "value": "0",
+            "ro.launcher.blur.appLaunch": "0"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.lcd.display.screen.underlightsensor.region",
+            "value": "749,96,820,165",
+            "ro.lcd.display.screen.underlightsensor.region": "749,96,820,165"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.llndk.api_level",
+            "value": "202404",
+            "ro.llndk.api_level": "202404"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.logd.flowctrl.method",
+            "value": "com.sohu.inputmethod.sogou.HONOR/.SogouIME,com.sohu.inputmethod.sogou.HONOR,搜狗输入法定制版;",
+            "ro.logd.flowctrl.method": "com.sohu.inputmethod.sogou.HONOR/.SogouIME,com.sohu.inputmethod.sogou.HONOR,搜狗输入法定制版;"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.logd.flowctrl.on",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.logd.flowctrl.on": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.logd.flowctrl.quota.rows",
+            "value": "300",
+            "ro.logd.flowctrl.quota.rows": "300"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.logd.flowctrl.quota.size",
+            "value": "12288",
+            "ro.logd.flowctrl.quota.size": "12288"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.logd.size.stats",
+            "value": "64K",
+            "ro.logd.size.stats": "64K"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.media.recorder-max-base-layer-fps",
+            "value": "60",
+            "ro.media.recorder-max-base-layer-fps": "60"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.media.xml_variant.codecs",
+            "value": "_cliffs_v1",
+            "ro.media.xml_variant.codecs": "_cliffs_v1"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.media.xml_variant.codecs_performance",
+            "value": "_cliffs_v1",
+            "ro.media.xml_variant.codecs_performance": "_cliffs_v1"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.mediaserver.64b.enable",
+            "value": "true",
+            "ro.mediaserver.64b.enable": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.netflix.bsp_rev",
+            "value": "Q8635-38577-1",
+            "ro.netflix.bsp_rev": "Q8635-38577-1"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.nfc.port",
+            "value": "arm64-v8a,armeabi-v7a,armeabi",
+            "ro.nfc.port": "arm64-v8a,armeabi-v7a,armeabi"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.odm.build.date",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.odm.build.date": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.odm.build.date.utc",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.odm.build.date.utc": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.odm.build.fingerprint",
+            "value": "HONOR/NIC-LX2/NIC-LX2:9/UPL6.250902.006/V481.0.4.0.OPUCXFH:user/release-keys",
+            "ro.odm.build.fingerprint": "HONOR/NIC-LX2/NIC-LX2:9/UPL6.250902.006/V481.0.4.0.OPUCXFH:user/release-keys"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.odm.build.version.incremental",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.odm.build.version.incremental": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oem.key1",
+            "value": "pub",
+            "ro.oem.key1": "pub"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.opengles.version",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.opengles.version": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.audio.audiorecord_hook_support",
+            "value": "true",
+            "ro.oplus.audio.audiorecord_hook_support": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.audio.detection.support",
+            "value": "arm64-v8a,armeabi-v7a,armeabi",
+            "ro.oplus.audio.detection.support": "arm64-v8a,armeabi-v7a,armeabi"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.audio.effect.type",
+            "value": "user",
+            "ro.oplus.audio.effect.type": "user"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.audio.product.para",
+            "value": "23061_20231205_v00",
+            "ro.oplus.audio.product.para": "23061_20231205_v00"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.audio.ring_output_setting_support",
+            "value": "true",
+            "ro.oplus.audio.ring_output_setting_support": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.audio.ringermodeinfo.feedback.support",
+            "value": "arm64-v8a,armeabi-v7a,armeabi",
+            "ro.oplus.audio.ringermodeinfo.feedback.support": "arm64-v8a,armeabi-v7a,armeabi"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.audio.support.LHDC_RING",
+            "value": "true",
+            "ro.oplus.audio.support.LHDC_RING": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.audio.support.meta_audio",
+            "value": "1",
+            "ro.oplus.audio.support.meta_audio": "1"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.audio.support.ocar",
+            "value": "1",
+            "ro.oplus.audio.support.ocar": "1"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.audio.thermal_control",
+            "value": "1",
+            "ro.oplus.audio.thermal_control": "1"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.audio.voip_record_white_app_support",
+            "value": "true",
+            "ro.oplus.audio.voip_record_white_app_support": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.camera.facing.front.need.disable.nfc",
+            "value": "1",
+            "ro.oplus.camera.facing.front.need.disable.nfc": "1"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.camera.speechassist",
+            "value": "true",
+            "ro.oplus.camera.speechassist": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.camera.video.beauty.switch",
+            "value": "oplus.switch.video.beauty",
+            "ro.oplus.camera.video.beauty.switch": "oplus.switch.video.beauty"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.camera.video_beauty.prefix",
+            "value": "oplus.video.beauty.",
+            "ro.oplus.camera.video_beauty.prefix": "oplus.video.beauty."
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.cfg_fun_flag",
+            "value": "true",
+            "ro.oplus.cfg_fun_flag": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.components.list",
+            "value": "base,my_product,my_heytap,my_stock,my_region,my_carrier,my_bigball,my_manifest",
+            "ro.oplus.components.list": "base,my_product,my_heytap,my_stock,my_region,my_carrier,my_bigball,my_manifest"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.cust.ver",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.oplus.cust.ver": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.custom.uninstall.time",
+            "value": "1722823151000",
+            "ro.oplus.custom.uninstall.time": "1722823151000"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.customize.display.version_name",
+            "value": "X00CNQW00",
+            "ro.oplus.customize.display.version_name": "X00CNQW00"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.density.fhd_default",
+            "value": "480",
+            "ro.oplus.density.fhd_default": "480"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.density.qhd_default",
+            "value": "560",
+            "ro.oplus.density.qhd_default": "560"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.disable_upgrade_sau_setting",
+            "value": "1",
+            "ro.oplus.disable_upgrade_sau_setting": "1"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.display.brightness.min_settings.rm",
+            "value": "1,1,25,4.0,0",
+            "ro.oplus.display.brightness.min_settings.rm": "1,1,25,4.0,0"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.display.peak.brightness.duration_time",
+            "value": "15",
+            "ro.oplus.display.peak.brightness.duration_time": "15"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.display.peak.brightness.effect_interval_time",
+            "value": "1800000",
+            "ro.oplus.display.peak.brightness.effect_interval_time": "1800000"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.display.peak.brightness.effect_times_every_day",
+            "value": "2",
+            "ro.oplus.display.peak.brightness.effect_times_every_day": "2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.display.screenSizeInches.primary",
+            "value": "6.78",
+            "ro.oplus.display.screenSizeInches.primary": "6.78"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.display.screenhole.positon",
+            "value": "596,40:668,112",
+            "ro.oplus.display.screenhole.positon": "596,40:668,112"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.display.wm_size_resolution_switch.support",
+            "value": "arm64-v8a,armeabi-v7a,armeabi",
+            "ro.oplus.display.wm_size_resolution_switch.support": "arm64-v8a,armeabi-v7a,armeabi"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.eid.enable.state",
+            "value": "5",
+            "ro.oplus.eid.enable.state": "5"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.fusionlight",
+            "value": "true",
+            "ro.oplus.fusionlight": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.haptic.lra_level_high",
+            "value": "138",
+            "ro.oplus.haptic.lra_level_high": "138"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.haptic.lra_level_low",
+            "value": "122",
+            "ro.oplus.haptic.lra_level_low": "122"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.haptic.lra_level_middle",
+            "value": "126",
+            "ro.oplus.haptic.lra_level_middle": "126"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.haptic.lra_level_middle1",
+            "value": "130",
+            "ro.oplus.haptic.lra_level_middle1": "130"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.haptic.lra_level_middle2",
+            "value": "134",
+            "ro.oplus.haptic.lra_level_middle2": "134"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.haptic.lra_range_gap1",
+            "value": "124",
+            "ro.oplus.haptic.lra_range_gap1": "124"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.haptic.lra_range_gap2",
+            "value": "128",
+            "ro.oplus.haptic.lra_range_gap2": "128"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.haptic.lra_range_gap3",
+            "value": "131",
+            "ro.oplus.haptic.lra_range_gap3": "131"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.haptic.lra_range_gap4",
+            "value": "136",
+            "ro.oplus.haptic.lra_range_gap4": "136"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.haptic.lra_range_max",
+            "value": "140",
+            "ro.oplus.haptic.lra_range_max": "140"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.haptic.lra_range_min",
+            "value": "120",
+            "ro.oplus.haptic.lra_range_min": "120"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.haptic.lra_value_set",
+            "value": "true",
+            "ro.oplus.haptic.lra_value_set": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.base.version",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.oplus.image.base.version": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_bigball.type",
+            "value": "user",
+            "ro.oplus.image.my_bigball.type": "user"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_bigball.version",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.oplus.image.my_bigball.version": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_carrier.date",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.oplus.image.my_carrier.date": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_carrier.date.utc",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.oplus.image.my_carrier.date.utc": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_carrier.type",
+            "value": "user",
+            "ro.oplus.image.my_carrier.type": "user"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_carrier.version",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.oplus.image.my_carrier.version": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_carrier.version_name",
+            "value": "X00CNQW00",
+            "ro.oplus.image.my_carrier.version_name": "X00CNQW00"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_company.type",
+            "value": "user",
+            "ro.oplus.image.my_company.type": "user"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_company.version",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.oplus.image.my_company.version": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_engineering.date",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.oplus.image.my_engineering.date": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_engineering.date.utc",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.oplus.image.my_engineering.date.utc": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_engineering.type",
+            "value": "user",
+            "ro.oplus.image.my_engineering.type": "user"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_engineering.version",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.oplus.image.my_engineering.version": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_heytap.date",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.oplus.image.my_heytap.date": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_heytap.date.utc",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.oplus.image.my_heytap.date.utc": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_heytap.type",
+            "value": "user",
+            "ro.oplus.image.my_heytap.type": "user"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_heytap.version",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.oplus.image.my_heytap.version": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_manifest.version",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.oplus.image.my_manifest.version": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_preload.date",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.oplus.image.my_preload.date": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_preload.date.utc",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.oplus.image.my_preload.date.utc": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_preload.type",
+            "value": "user",
+            "ro.oplus.image.my_preload.type": "user"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_preload.version",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.oplus.image.my_preload.version": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_preload.version_name",
+            "value": "my_preload_domestic_CN_ALLNET_1699599465",
+            "ro.oplus.image.my_preload.version_name": "my_preload_domestic_CN_ALLNET_1699599465"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_product.date",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.oplus.image.my_product.date": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_product.date.utc",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.oplus.image.my_product.date.utc": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_product.type",
+            "value": "user",
+            "ro.oplus.image.my_product.type": "user"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_product.version",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.oplus.image.my_product.version": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_region.date",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.oplus.image.my_region.date": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_region.date.utc",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.oplus.image.my_region.date.utc": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_region.type",
+            "value": "user",
+            "ro.oplus.image.my_region.type": "user"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_region.version",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.oplus.image.my_region.version": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_stock.date",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.oplus.image.my_stock.date": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_stock.date.utc",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.oplus.image.my_stock.date.utc": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_stock.type",
+            "value": "user",
+            "ro.oplus.image.my_stock.type": "user"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.my_stock.version",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.oplus.image.my_stock.version": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.odm.type",
+            "value": "user",
+            "ro.oplus.image.odm.type": "user"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.odm.version",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.oplus.image.odm.version": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.product.version",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.oplus.image.product.version": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.system.version",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.oplus.image.system.version": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.system_ext.area",
+            "value": "domestic",
+            "ro.oplus.image.system_ext.area": "domestic"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.system_ext.brand",
+            "value": "HONOR",
+            "ro.oplus.image.system_ext.brand": "HONOR"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.system_ext.date",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.oplus.image.system_ext.date": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.system_ext.date.utc",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.oplus.image.system_ext.date.utc": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.system_ext.device_type",
+            "value": "phone",
+            "ro.oplus.image.system_ext.device_type": "phone"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.image.system_ext.version",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.oplus.image.system_ext.version": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.lcd.display.screen.underlightsensor.region",
+            "value": "749,96,820,165",
+            "ro.oplus.lcd.display.screen.underlightsensor.region": "749,96,820,165"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.ltw.domestic",
+            "value": "true",
+            "ro.oplus.ltw.domestic": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.media.rampduration",
+            "value": "50000",
+            "ro.oplus.media.rampduration": "50000"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.media.rampstart",
+            "value": "240000",
+            "ro.oplus.media.rampstart": "240000"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.memory.size",
+            "value": "8",
+            "ro.oplus.memory.size": "8"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.minidump.kernel.log.support",
+            "value": "arm64-v8a,armeabi-v7a,armeabi",
+            "ro.oplus.minidump.kernel.log.support": "arm64-v8a,armeabi-v7a,armeabi"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.my_manifest.uuid",
+            "value": "432296d3-9dd4-46e1-80cc-321a9d621cd3",
+            "ro.oplus.my_manifest.uuid": "432296d3-9dd4-46e1-80cc-321a9d621cd3"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.nfc.ccc_bmw_hmi_support",
+            "value": "true",
+            "ro.oplus.nfc.ccc_bmw_hmi_support": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.nfc.current.support",
+            "value": "arm64-v8a,armeabi-v7a,armeabi",
+            "ro.oplus.nfc.current.support": "arm64-v8a,armeabi-v7a,armeabi"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.nfc.feature_disable_tag_notify",
+            "value": "true",
+            "ro.oplus.nfc.feature_disable_tag_notify": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.nfc.frequency.support",
+            "value": "arm64-v8a,armeabi-v7a,armeabi",
+            "ro.oplus.nfc.frequency.support": "arm64-v8a,armeabi-v7a,armeabi"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.nfc.smart_switch_card",
+            "value": "true",
+            "ro.oplus.nfc.smart_switch_card": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.nfc.support.encryption_card",
+            "value": "true",
+            "ro.oplus.nfc.support.encryption_card": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.nfc.support.tee",
+            "value": "true",
+            "ro.oplus.nfc.support.tee": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.nfc.tap_to_share_with_ios",
+            "value": "true",
+            "ro.oplus.nfc.tap_to_share_with_ios": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.normal_boot_mode",
+            "value": "true",
+            "ro.oplus.normal_boot_mode": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.oiface.gcp.extmode",
+            "value": "true",
+            "ro.oplus.oiface.gcp.extmode": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.omes.e2ee.te.enable",
+            "value": "1",
+            "ro.oplus.omes.e2ee.te.enable": "1"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.osense.uaf_enable",
+            "value": "true",
+            "ro.oplus.osense.uaf_enable": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.osense.uaf_key_thread_enable",
+            "value": "true",
+            "ro.oplus.osense.uaf_key_thread_enable": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.pipeline.carrier",
+            "value": "ALLNET",
+            "ro.oplus.pipeline.carrier": "ALLNET"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.pipeline.region",
+            "value": "CN",
+            "ro.oplus.pipeline.region": "CN"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.pipeline_key",
+            "value": "ALLNET",
+            "ro.oplus.pipeline_key": "ALLNET"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.product.series",
+            "value": "GT_series",
+            "ro.oplus.product.series": "GT_series"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.resolution.high",
+            "value": "1264,2780",
+            "ro.oplus.resolution.high": "1264,2780"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.resolution.low",
+            "value": "1080,2376",
+            "ro.oplus.resolution.low": "1080,2376"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.rsa",
+            "value": "rsa4-non",
+            "ro.oplus.rsa": "rsa4-non"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.server_url_1",
+            "value": "https://newds-api-cn-01.allawntech.com/autotime/dateandtime.xml?number=",
+            "ro.oplus.server_url_1": "https://newds-api-cn-01.allawntech.com/autotime/dateandtime.xml?number="
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.server_url_2",
+            "value": "https://newds-api-cn-02.allawntech.com/autotime/dateandtime.xml?number=",
+            "ro.oplus.server_url_2": "https://newds-api-cn-02.allawntech.com/autotime/dateandtime.xml?number="
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.softap.switch.log.support",
+            "value": "arm64-v8a,armeabi-v7a,armeabi",
+            "ro.oplus.softap.switch.log.support": "arm64-v8a,armeabi-v7a,armeabi"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.system.camera.flashlight",
+            "value": "com.oplus.motor.flashlight",
+            "ro.oplus.system.camera.flashlight": "com.oplus.motor.flashlight"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.system.camera.name",
+            "value": "REL",
+            "ro.oplus.system.camera.name": "REL"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.system_ext_app.hash",
+            "value": "63059c645ff973d16fd60372c1a812a2",
+            "ro.oplus.system_ext_app.hash": "63059c645ff973d16fd60372c1a812a2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.theme.version",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.oplus.theme.version": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.version.base",
+            "value": "null",
+            "ro.oplus.version.base": "null"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.version.my_bigball",
+            "value": "version_stub.e34e76d3",
+            "ro.oplus.version.my_bigball": "version_stub.e34e76d3"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.version.my_carrier",
+            "value": "15.0.0351.2025081911004932837411.a1be0c66",
+            "ro.oplus.version.my_carrier": "15.0.0351.2025081911004932837411.a1be0c66"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.version.my_company",
+            "value": "version_stub.d6f950b7",
+            "ro.oplus.version.my_company": "version_stub.d6f950b7"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.version.my_heytap",
+            "value": "0.0.296.0.2025081901000232816949.805ccf59",
+            "ro.oplus.version.my_heytap": "0.0.296.0.2025081901000232816949.805ccf59"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.version.my_manifest",
+            "value": "RMX3850_11.C.48_1480_202509151834.97.c97ab6d7",
+            "ro.oplus.version.my_manifest": "RMX3850_11.C.48_1480_202509151834.97.c97ab6d7"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.version.my_preload",
+            "value": "0.0.1.2025081903043932822029.8b3fd463",
+            "ro.oplus.version.my_preload": "0.0.1.2025081903043932822029.8b3fd463"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.version.my_product",
+            "value": "23609_1502_V.1.0.2025091312113333338319.2f53eb07",
+            "ro.oplus.version.my_product": "23609_1502_V.1.0.2025091312113333338319.2f53eb07"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.version.my_region",
+            "value": "15.0.0351.2025081811443132814120.864ba274",
+            "ro.oplus.version.my_region": "15.0.0351.2025081811443132814120.864ba274"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.version.my_stock",
+            "value": "14.0.0.25.2025091312113333338322.93552d22",
+            "ro.oplus.version.my_stock": "14.0.0.25.2025091312113333338322.93552d22"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.wifi.service.test.enable",
+            "value": "false",
+            "ro.oplus.wifi.service.test.enable": "false"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.wifi.ull.tx_bw20",
+            "value": "true",
+            "ro.oplus.wifi.ull.tx_bw20": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplus.wifi.wsa",
+            "value": "StbcMrc",
+            "ro.oplus.wifi.wsa": "StbcMrc"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oplusupgrade.alpha.version",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.oplusupgrade.alpha.version": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.oppo.ad_test_sys",
+            "value": "1",
+            "ro.oppo.ad_test_sys": "1"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.pgo.prop",
+            "value": "4302bf65",
+            "ro.pgo.prop": "4302bf65"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.postinstall.fstab.prefix",
+            "value": "/system",
+            "ro.postinstall.fstab.prefix": "/system"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.preinstall.path",
+            "value": "/data/etc/appchannel",
+            "ro.preinstall.path": "/data/etc/appchannel"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.ab_ota_partitions",
+            "value": "abl,aop,aop_config,bluetooth,boot,cpucp,cpucp_dtb,devcfg,dsp,dtbo,engineering_cdt,featenabler,hyp,imagefv,init_boot,keymaster,modem,my_bigball,my_carrier,my_company,my_engineering,my_heytap,my_manifest,my_preload,my_product,my_region,my_stock,odm,oplus_sec,oplusstanvbk,product,qupfw,recovery,shrm,splash,system,system_dlkm,system_ext,tz,uefi,uefisecapp,vbmeta,vbmeta_system,vbmeta_vendor,vendor,vendor_boot,vendor_dlkm,xbl,xbl_config,xbl_ramdump",
+            "ro.product.ab_ota_partitions": "abl,aop,aop_config,bluetooth,boot,cpucp,cpucp_dtb,devcfg,dsp,dtbo,engineering_cdt,featenabler,hyp,imagefv,init_boot,keymaster,modem,my_bigball,my_carrier,my_company,my_engineering,my_heytap,my_manifest,my_preload,my_product,my_region,my_stock,odm,oplus_sec,oplusstanvbk,product,qupfw,recovery,shrm,splash,system,system_dlkm,system_ext,tz,uefi,uefisecapp,vbmeta,vbmeta_system,vbmeta_vendor,vendor,vendor_boot,vendor_dlkm,xbl,xbl_config,xbl_ramdump"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.authentication",
+            "value": "24C508TP5950",
+            "ro.product.authentication": "24C508TP5950"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.board",
+            "value": "NIC-LX2",
+            "ro.product.board": "NIC-LX2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.bootreg.disable.command",
+            "value": "true",
+            "ro.product.bootreg.disable.command": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.brand",
+            "value": "HONOR",
+            "ro.product.brand": "HONOR"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.brand.sub",
+            "value": "460208090480083",
+            "ro.product.brand.sub": "460208090480083"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.build.date",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.product.build.date": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.build.date.utc",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.product.build.date.utc": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.build.fingerprint",
+            "value": "HONOR/NIC-LX2/NIC-LX2:9/UPL6.250902.006/V481.0.4.0.OPUCXFH:user/release-keys",
+            "ro.product.build.fingerprint": "HONOR/NIC-LX2/NIC-LX2:9/UPL6.250902.006/V481.0.4.0.OPUCXFH:user/release-keys"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.build.id",
+            "value": "UPL6.250902.006",
+            "ro.product.build.id": "UPL6.250902.006"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.build.tags",
+            "value": "release-keys",
+            "ro.product.build.tags": "release-keys"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.build.type",
+            "value": "user",
+            "ro.product.build.type": "user"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.build.version.incremental",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.product.build.version.incremental": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.build.version.release",
+            "value": "9",
+            "ro.product.build.version.release": "9"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.build.version.release_or_codename",
+            "value": "15",
+            "ro.product.build.version.release_or_codename": "15"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.cpu.abi",
+            "value": "arm64-v8a",
+            "ro.product.cpu.abi": "arm64-v8a"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.cpu.pagesize.max",
+            "value": "4096",
+            "ro.product.cpu.pagesize.max": "4096"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.cuptsm",
+            "value": "REALME|ESE|01|02",
+            "ro.product.cuptsm": "REALME|ESE|01|02"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.device",
+            "value": "NIC-LX2",
+            "ro.product.device": "NIC-LX2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.locale",
+            "value": "CN",
+            "ro.product.locale": "CN"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.manufacturer",
+            "value": "HONOR",
+            "ro.product.manufacturer": "HONOR"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.model",
+            "value": "NIC-LX2",
+            "ro.product.model": "NIC-LX2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.name",
+            "value": "REL",
+            "ro.product.name": "REL"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.odm.brand",
+            "value": "HONOR",
+            "ro.product.odm.brand": "HONOR"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.odm.device",
+            "value": "NIC-LX2",
+            "ro.product.odm.device": "NIC-LX2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.odm.manufacturer",
+            "value": "HONOR",
+            "ro.product.odm.manufacturer": "HONOR"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.odm.model",
+            "value": "NIC-LX2",
+            "ro.product.odm.model": "NIC-LX2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.odm.name",
+            "value": "REL",
+            "ro.product.odm.name": "REL"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.oem_dm",
+            "value": "1",
+            "ro.product.oem_dm": "1"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.oplus.cpuinfo",
+            "value": "processor: 0;BogoMIPS: 52.00;Features: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp;CPU implementer: 0x41;CPU architecture: 8;CPU variant: 0x2;CPU part: 0xd05;CPU revision: 0;;Hardware: Samsung Technologies, Inc Exynos E1080;;processor: 1;BogoMIPS: 52.00;Features: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp;CPU implementer: 0x41;CPU architecture: 8;CPU variant: 0x2;CPU part: 0xd05;CPU revision: 0;;Hardware: Samsung Technologies, Inc Exynos E1080;;processor: 2;BogoMIPS: 52.00;Features: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp;CPU implementer: 0x41;CPU architecture: 8;CPU variant: 0x2;CPU part: 0xd05;CPU revision: 0;;Hardware: Samsung Technologies, Inc Exynos E1080;;processor: 3;BogoMIPS: 52.00;Features: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp;CPU implementer: 0x41;CPU architecture: 8;CPU variant: 0x2;CPU part: 0xd05;CPU revision: 0;;Hardware: Samsung Technologies, Inc Exynos E1080;;processor: 4;BogoMIPS: 52.00;Features: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp;CPU implementer: 0x41;CPU architecture: 8;CPU variant: 0x1;CPU part: 0xd41;CPU revision: 0;;Hardware: Samsung Technologies, Inc Exynos E1080;;processor: 5;BogoMIPS: 52.00;Features: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp;CPU implementer: 0x41;CPU architecture: 8;CPU variant: 0x1;CPU part: 0xd41;CPU revision: 0;;Hardware: Samsung Technologies, Inc Exynos E1080;;processor: 6;BogoMIPS: 52.00;Features: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp;CPU implementer: 0x41;CPU architecture: 8;CPU variant: 0x1;CPU part: 0xd41;CPU revision: 0;;Hardware: Samsung Technologies, Inc Exynos E1080;;processor: 7;BogoMIPS: 52.00;Features: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp;CPU implementer: 0x41;CPU architecture: 8;CPU variant: 0x1;CPU part: 0xd41;CPU revision: 0;;Hardware: Samsung Technologies, Inc Exynos E1080",
+            "ro.product.oplus.cpuinfo": "processor: 0;BogoMIPS: 52.00;Features: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp;CPU implementer: 0x41;CPU architecture: 8;CPU variant: 0x2;CPU part: 0xd05;CPU revision: 0;;Hardware: Samsung Technologies, Inc Exynos E1080;;processor: 1;BogoMIPS: 52.00;Features: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp;CPU implementer: 0x41;CPU architecture: 8;CPU variant: 0x2;CPU part: 0xd05;CPU revision: 0;;Hardware: Samsung Technologies, Inc Exynos E1080;;processor: 2;BogoMIPS: 52.00;Features: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp;CPU implementer: 0x41;CPU architecture: 8;CPU variant: 0x2;CPU part: 0xd05;CPU revision: 0;;Hardware: Samsung Technologies, Inc Exynos E1080;;processor: 3;BogoMIPS: 52.00;Features: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp;CPU implementer: 0x41;CPU architecture: 8;CPU variant: 0x2;CPU part: 0xd05;CPU revision: 0;;Hardware: Samsung Technologies, Inc Exynos E1080;;processor: 4;BogoMIPS: 52.00;Features: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp;CPU implementer: 0x41;CPU architecture: 8;CPU variant: 0x1;CPU part: 0xd41;CPU revision: 0;;Hardware: Samsung Technologies, Inc Exynos E1080;;processor: 5;BogoMIPS: 52.00;Features: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp;CPU implementer: 0x41;CPU architecture: 8;CPU variant: 0x1;CPU part: 0xd41;CPU revision: 0;;Hardware: Samsung Technologies, Inc Exynos E1080;;processor: 6;BogoMIPS: 52.00;Features: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp;CPU implementer: 0x41;CPU architecture: 8;CPU variant: 0x1;CPU part: 0xd41;CPU revision: 0;;Hardware: Samsung Technologies, Inc Exynos E1080;;processor: 7;BogoMIPS: 52.00;Features: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp;CPU implementer: 0x41;CPU architecture: 8;CPU variant: 0x1;CPU part: 0xd41;CPU revision: 0;;Hardware: Samsung Technologies, Inc Exynos E1080"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.oplus.wlan.ko",
+            "value": "中国电信",
+            "ro.product.oplus.wlan.ko": "中国电信"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.product.brand",
+            "value": "HONOR",
+            "ro.product.product.brand": "HONOR"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.product.device",
+            "value": "NIC-LX2",
+            "ro.product.product.device": "NIC-LX2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.product.manufacturer",
+            "value": "HONOR",
+            "ro.product.product.manufacturer": "HONOR"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.product.model",
+            "value": "NIC-LX2",
+            "ro.product.product.model": "NIC-LX2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.product.name",
+            "value": "REL",
+            "ro.product.product.name": "REL"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.supported_versions",
+            "value": "23609",
+            "ro.product.supported_versions": "23609"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.system.brand",
+            "value": "HONOR",
+            "ro.product.system.brand": "HONOR"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.system.device",
+            "value": "NIC-LX2",
+            "ro.product.system.device": "NIC-LX2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.system.manufacturer",
+            "value": "HONOR",
+            "ro.product.system.manufacturer": "HONOR"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.system.model",
+            "value": "NIC-LX2",
+            "ro.product.system.model": "NIC-LX2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.system.name",
+            "value": "REL",
+            "ro.product.system.name": "REL"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.system_ext.brand",
+            "value": "HONOR",
+            "ro.product.system_ext.brand": "HONOR"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.system_ext.device",
+            "value": "NIC-LX2",
+            "ro.product.system_ext.device": "NIC-LX2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.system_ext.manufacturer",
+            "value": "HONOR",
+            "ro.product.system_ext.manufacturer": "HONOR"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.system_ext.model",
+            "value": "NIC-LX2",
+            "ro.product.system_ext.model": "NIC-LX2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.system_ext.name",
+            "value": "REL",
+            "ro.product.system_ext.name": "REL"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.vendor.brand",
+            "value": "HONOR",
+            "ro.product.vendor.brand": "HONOR"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.vendor.device",
+            "value": "NIC-LX2",
+            "ro.product.vendor.device": "NIC-LX2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.vendor.manufacturer",
+            "value": "HONOR",
+            "ro.product.vendor.manufacturer": "HONOR"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.vendor.model",
+            "value": "NIC-LX2",
+            "ro.product.vendor.model": "NIC-LX2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.vendor.name",
+            "value": "REL",
+            "ro.product.vendor.name": "REL"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.vendor_dlkm.brand",
+            "value": "HONOR",
+            "ro.product.vendor_dlkm.brand": "HONOR"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.vendor_dlkm.device",
+            "value": "NIC-LX2",
+            "ro.product.vendor_dlkm.device": "NIC-LX2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.vendor_dlkm.manufacturer",
+            "value": "HONOR",
+            "ro.product.vendor_dlkm.manufacturer": "HONOR"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.vendor_dlkm.model",
+            "value": "NIC-LX2",
+            "ro.product.vendor_dlkm.model": "NIC-LX2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.product.vendor_dlkm.name",
+            "value": "REL",
+            "ro.product.vendor_dlkm.name": "REL"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.property_service.version",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.property_service.version": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.rom.featrue",
+            "value": "allnet",
+            "ro.rom.featrue": "allnet"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.runtime.agingbootcheck",
+            "value": "1",
+            "ro.runtime.agingbootcheck": "1"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.separate.soft",
+            "value": "77",
+            "ro.separate.soft": "77"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.soc.manufacturer",
+            "value": "HONOR",
+            "ro.soc.manufacturer": "HONOR"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.soc.model",
+            "value": "NIC-LX2",
+            "ro.soc.model": "NIC-LX2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.support_one_handed_mode",
+            "value": "true",
+            "ro.support_one_handed_mode": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.sys.customize.flashback.company",
+            "value": "invalid",
+            "ro.sys.customize.flashback.company": "invalid"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.sys.ocd.feature.config",
+            "value": "107471252955856896",
+            "ro.sys.ocd.feature.config": "107471252955856896"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.sys.oplus_support_app32_version",
+            "value": "0",
+            "ro.sys.oplus_support_app32_version": "0"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.sys.reserve.integrate",
+            "value": "true",
+            "ro.sys.reserve.integrate": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.system.build.date",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.system.build.date": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.system.build.date.utc",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.system.build.date.utc": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.system.build.fingerprint",
+            "value": "HONOR/NIC-LX2/NIC-LX2:9/UPL6.250902.006/V481.0.4.0.OPUCXFH:user/release-keys",
+            "ro.system.build.fingerprint": "HONOR/NIC-LX2/NIC-LX2:9/UPL6.250902.006/V481.0.4.0.OPUCXFH:user/release-keys"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.system.build.id",
+            "value": "UPL6.250902.006",
+            "ro.system.build.id": "UPL6.250902.006"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.system.build.tags",
+            "value": "release-keys",
+            "ro.system.build.tags": "release-keys"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.system.build.type",
+            "value": "user",
+            "ro.system.build.type": "user"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.system.build.version.incremental",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.system.build.version.incremental": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.system.build.version.release",
+            "value": "9",
+            "ro.system.build.version.release": "9"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.system.build.version.release_or_codename",
+            "value": "15",
+            "ro.system.build.version.release_or_codename": "15"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.system_ext.build.date",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.system_ext.build.date": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.system_ext.build.date.utc",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.system_ext.build.date.utc": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.system_ext.build.fingerprint",
+            "value": "HONOR/NIC-LX2/NIC-LX2:9/UPL6.250902.006/V481.0.4.0.OPUCXFH:user/release-keys",
+            "ro.system_ext.build.fingerprint": "HONOR/NIC-LX2/NIC-LX2:9/UPL6.250902.006/V481.0.4.0.OPUCXFH:user/release-keys"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.system_ext.build.id",
+            "value": "UPL6.250902.006",
+            "ro.system_ext.build.id": "UPL6.250902.006"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.system_ext.build.tags",
+            "value": "release-keys",
+            "ro.system_ext.build.tags": "release-keys"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.system_ext.build.type",
+            "value": "user",
+            "ro.system_ext.build.type": "user"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.system_ext.build.version.incremental",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.system_ext.build.version.incremental": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.system_ext.build.version.release",
+            "value": "9",
+            "ro.system_ext.build.version.release": "9"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.system_ext.build.version.release_or_codename",
+            "value": "15",
+            "ro.system_ext.build.version.release_or_codename": "15"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.telephony.call_ring.multiple",
+            "value": "false",
+            "ro.telephony.call_ring.multiple": "false"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.telephony.default_network",
+            "value": "27,26",
+            "ro.telephony.default_network": "27,26"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.telephony.sim_slots.count",
+            "value": "cn",
+            "ro.telephony.sim_slots.count": "cn"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.trackingId.com.arise.appid",
+            "value": "/data/etc/appchannel/ariseChannel.txt",
+            "ro.trackingId.com.arise.appid": "/data/etc/appchannel/ariseChannel.txt"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.trackingId.com.lzd.appid",
+            "value": "/data/etc/appchannel/lazadaChannel.txt",
+            "ro.trackingId.com.lzd.appid": "/data/etc/appchannel/lazadaChannel.txt"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.treble.enabled",
+            "value": "true",
+            "ro.treble.enabled": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.api_level",
+            "value": "34",
+            "ro.vendor.api_level": "34"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.beluga.c",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.vendor.beluga.c": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.beluga.p",
+            "value": "arm64-v8a",
+            "ro.vendor.beluga.p": "arm64-v8a"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.beluga.s",
+            "value": "arm64-v8a,armeabi-v7a,armeabi",
+            "ro.vendor.beluga.s": "arm64-v8a,armeabi-v7a,armeabi"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.beluga.t",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.vendor.beluga.t": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.build.date",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.vendor.build.date": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.build.date.utc",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.vendor.build.date.utc": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.build.fingerprint",
+            "value": "HONOR/NIC-LX2/NIC-LX2:9/UPL6.250902.006/V481.0.4.0.OPUCXFH:user/release-keys",
+            "ro.vendor.build.fingerprint": "HONOR/NIC-LX2/NIC-LX2:9/UPL6.250902.006/V481.0.4.0.OPUCXFH:user/release-keys"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.build.id",
+            "value": "UPL6.250902.006",
+            "ro.vendor.build.id": "UPL6.250902.006"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.build.security_patch",
+            "value": "2025-12-05",
+            "ro.vendor.build.security_patch": "2025-12-05"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.build.tags",
+            "value": "release-keys",
+            "ro.vendor.build.tags": "release-keys"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.build.type",
+            "value": "user",
+            "ro.vendor.build.type": "user"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.build.version.incremental",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.vendor.build.version.incremental": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.build.version.release",
+            "value": "9",
+            "ro.vendor.build.version.release": "9"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.build.version.release_or_codename",
+            "value": "14",
+            "ro.vendor.build.version.release_or_codename": "14"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.config.oplus.low_ram",
+            "value": "false",
+            "ro.vendor.config.oplus.low_ram": "false"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.config.oplus.uniform_single_sim",
+            "value": "2",
+            "ro.vendor.config.oplus.uniform_single_sim": "2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.display.sensortype",
+            "value": "2",
+            "ro.vendor.display.sensortype": "2"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.oplus.camera.backCamSize",
+            "value": "50MP+8MP",
+            "ro.vendor.oplus.camera.backCamSize": "50MP+8MP"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.oplus.camera.frontCamSize",
+            "value": "32MP",
+            "ro.vendor.oplus.camera.frontCamSize": "32MP"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.oplus.camera.isHasselbladCamera",
+            "value": "0",
+            "ro.vendor.oplus.camera.isHasselbladCamera": "0"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.oplus.camera.isSupportExplorer",
+            "value": "0",
+            "ro.vendor.oplus.camera.isSupportExplorer": "0"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.oplus.market.enname",
+            "value": "realme GT Neo6 SE",
+            "ro.vendor.oplus.market.enname": "realme GT Neo6 SE"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.oplus.market.name",
+            "value": "REL",
+            "ro.vendor.oplus.market.name": "REL"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.oplus.mdmfeature",
+            "value": "true",
+            "ro.vendor.oplus.mdmfeature": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.oplus.provision.pki",
+            "value": "10",
+            "ro.vendor.oplus.provision.pki": "10"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.oplus.radio.carrier_detect_mode",
+            "value": "1",
+            "ro.vendor.oplus.radio.carrier_detect_mode": "1"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.oplus.radio.cn_ims_register",
+            "value": "true",
+            "ro.vendor.oplus.radio.cn_ims_register": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.oplus.radio.cn_nvbk",
+            "value": "TRUE",
+            "ro.vendor.oplus.radio.cn_nvbk": "TRUE"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.oplus.radio.cn_use_3gpp2",
+            "value": "true",
+            "ro.vendor.oplus.radio.cn_use_3gpp2": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.oplus.radio.multisim.config",
+            "value": "dsds",
+            "ro.vendor.oplus.radio.multisim.config": "dsds"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.oplus.regionmark",
+            "value": "CN",
+            "ro.vendor.oplus.regionmark": "CN"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.oplus.sensor.brl_receive",
+            "value": "true",
+            "ro.vendor.oplus.sensor.brl_receive": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.oplus.sensor.high_pwm_rgb",
+            "value": "true",
+            "ro.vendor.oplus.sensor.high_pwm_rgb": "true"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.oplus.version",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.vendor.oplus.version": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.oplus.wifi.bdfver",
+            "value": "123456789",
+            "ro.vendor.oplus.wifi.bdfver": "123456789"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.perf.scroll_opt",
+            "value": "1",
+            "ro.vendor.perf.scroll_opt": "1"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.qti.va_aosp.support",
+            "value": "arm64-v8a,armeabi-v7a,armeabi",
+            "ro.vendor.qti.va_aosp.support": "arm64-v8a,armeabi-v7a,armeabi"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor.qti.va_odm.support",
+            "value": "arm64-v8a,armeabi-v7a,armeabi",
+            "ro.vendor.qti.va_odm.support": "arm64-v8a,armeabi-v7a,armeabi"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor_dlkm.build.date",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.vendor_dlkm.build.date": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor_dlkm.build.date.utc",
+            "value": "Tue Jan 07 15:35:35 UTC 2020",
+            "ro.vendor_dlkm.build.date.utc": "Tue Jan 07 15:35:35 UTC 2020"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor_dlkm.build.fingerprint",
+            "value": "HONOR/NIC-LX2/NIC-LX2:9/UPL6.250902.006/V481.0.4.0.OPUCXFH:user/release-keys",
+            "ro.vendor_dlkm.build.fingerprint": "HONOR/NIC-LX2/NIC-LX2:9/UPL6.250902.006/V481.0.4.0.OPUCXFH:user/release-keys"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor_dlkm.build.id",
+            "value": "UPL6.250902.006",
+            "ro.vendor_dlkm.build.id": "UPL6.250902.006"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor_dlkm.build.tags",
+            "value": "release-keys",
+            "ro.vendor_dlkm.build.tags": "release-keys"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor_dlkm.build.type",
+            "value": "user",
+            "ro.vendor_dlkm.build.type": "user"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor_dlkm.build.version.incremental",
+            "value": "V481.0.4.0.OPUCXFH",
+            "ro.vendor_dlkm.build.version.incremental": "V481.0.4.0.OPUCXFH"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor_dlkm.build.version.release",
+            "value": "9",
+            "ro.vendor_dlkm.build.version.release": "9"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor_dlkm.build.version.release_or_codename",
+            "value": "14",
+            "ro.vendor_dlkm.build.version.release_or_codename": "14"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.vendor_dlkm.build.version.sdk",
+            "value": "28",
+            "ro.vendor_dlkm.build.version.sdk": "28"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.version.confidential",
+            "value": "false",
+            "ro.version.confidential": "false"
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.wifi.channels",
+            "value": "",
+            "ro.wifi.channels": ""
+        },
+        {
+            "id": 0,
+            "name": "PropRw",
+            "description": "ro.xxversion",
+            "value": "V0.5",
+            "ro.xxversion": "V0.5"
+        }
+    ],
+    "sensors": [
+        {
+            "Name": "icm4x6xx Accelerometer Non-wakeup",
+            "Vendor": "TDK-Invensense",
+            "StringType": "android.sensor.accelerometer",
+            "Version": 309,
+            "Type": 1,
+            "MinDelay": 2000,
+            "FifoReservedEventCount": 3000,
+            "MaxDelay": 1000000,
+            "Id": 0,
+            "MaxRange": 156.90640258789062,
+            "Resolution": 0.004788403399288654,
+            "Power": 0.23999999463558197,
+            "Flags": 2432,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "ak0991x Magnetometer Non-wakeup",
+            "Vendor": "akm",
+            "StringType": "android.sensor.magnetic_field",
+            "Version": 146979,
+            "Type": 2,
+            "MinDelay": 10000,
+            "FifoReservedEventCount": 600,
+            "MaxDelay": 1000000,
+            "Id": 0,
+            "MaxRange": 4912.05029296875,
+            "Resolution": 0.15000000596046448,
+            "Power": 1.100000023841858,
+            "Flags": 2176,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "Rotation Vector  Non-wakeup",
+            "Vendor": "QTI",
+            "StringType": "android.sensor.orientation",
+            "Version": 1,
+            "Type": 3,
+            "MinDelay": 5000,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 200000,
+            "Id": 0,
+            "MaxRange": 1,
+            "Resolution": 0.009999999776482582,
+            "Power": 1.4149999618530273,
+            "Flags": 0,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "icm4x6xx Gyroscope Non-wakeup",
+            "Vendor": "TDK-Invensense",
+            "StringType": "android.sensor.gyroscope",
+            "Version": 309,
+            "Type": 4,
+            "MinDelay": 2000,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 1000000,
+            "Id": 0,
+            "MaxRange": 34.906558990478516,
+            "Resolution": 0.0010652636410668492,
+            "Power": 0.5699999928474426,
+            "Flags": 2496,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "tcs3720 Proximity Sensor Wakeup",
+            "Vendor": "oplus",
+            "StringType": "android.sensor.proximity",
+            "Version": 205,
+            "Type": 8,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 300,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 5,
+            "Resolution": 1,
+            "Power": 0.10000000149011612,
+            "Flags": 3,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "gravity  Non-wakeup",
+            "Vendor": "QTI",
+            "StringType": "android.sensor.gravity",
+            "Version": 1,
+            "Type": 9,
+            "MinDelay": 5000,
+            "FifoReservedEventCount": 300,
+            "MaxDelay": 200000,
+            "Id": 0,
+            "MaxRange": 156.91000366210938,
+            "Resolution": 0.009999999776482582,
+            "Power": 0.5149999856948853,
+            "Flags": 0,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "linear_acceleration",
+            "Vendor": "QTI",
+            "StringType": "android.sensor.linear_acceleration",
+            "Version": 1,
+            "Type": 10,
+            "MinDelay": 5000,
+            "FifoReservedEventCount": 300,
+            "MaxDelay": 200000,
+            "Id": 0,
+            "MaxRange": 156.91000366210938,
+            "Resolution": 0.009999999776482582,
+            "Power": 0.5149999856948853,
+            "Flags": 0,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "Rotation Vector  Non-wakeup",
+            "Vendor": "QTI",
+            "StringType": "android.sensor.rotation_vector",
+            "Version": 1,
+            "Type": 11,
+            "MinDelay": 5000,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 200000,
+            "Id": 0,
+            "MaxRange": 1,
+            "Resolution": 0.009999999776482582,
+            "Power": 1.4149999618530273,
+            "Flags": 0,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "ak0991x Magnetometer-Uncalibrated Non-wakeup",
+            "Vendor": "akm",
+            "StringType": "android.sensor.magnetic_field_uncalibrated",
+            "Version": 146979,
+            "Type": 14,
+            "MinDelay": 10000,
+            "FifoReservedEventCount": 600,
+            "MaxDelay": 1000000,
+            "Id": 0,
+            "MaxRange": 4912.05029296875,
+            "Resolution": 0.15000000596046448,
+            "Power": 1.100000023841858,
+            "Flags": 2176,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "Game Rotation Vector  Non-wakeup",
+            "Vendor": "QTI",
+            "StringType": "android.sensor.game_rotation_vector",
+            "Version": 1,
+            "Type": 15,
+            "MinDelay": 5000,
+            "FifoReservedEventCount": 300,
+            "MaxDelay": 200000,
+            "Id": 0,
+            "MaxRange": 1,
+            "Resolution": 0.009999999776482582,
+            "Power": 0.5149999856948853,
+            "Flags": 0,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "icm4x6xx Gyroscope-Uncalibrated Non-wakeup",
+            "Vendor": "TDK-Invensense",
+            "StringType": "android.sensor.gyroscope_uncalibrated",
+            "Version": 309,
+            "Type": 16,
+            "MinDelay": 2000,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 1000000,
+            "Id": 0,
+            "MaxRange": 34.906558990478516,
+            "Resolution": 0.0010652636410668492,
+            "Power": 0.5699999928474426,
+            "Flags": 2496,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "sns_smd  Wakeup",
+            "Vendor": "QTI",
+            "StringType": "android.sensor.significant_motion",
+            "Version": 1,
+            "Type": 17,
+            "MinDelay": -1,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 1,
+            "Resolution": 1,
+            "Power": 0.02500000037252903,
+            "Flags": 5,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "pedometer Oplus Step_detect Sensor Non-wakeup",
+            "Vendor": "oplus",
+            "StringType": "android.sensor.step_detector",
+            "Version": 1,
+            "Type": 18,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 300,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 1,
+            "Resolution": 1,
+            "Power": 0.0010000000474974513,
+            "Flags": 6,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "pedometer  Non-wakeup",
+            "Vendor": "oplus",
+            "StringType": "android.sensor.step_counter",
+            "Version": 1,
+            "Type": 19,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 300,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 4294967296,
+            "Resolution": 1,
+            "Power": 0.0010000000474974513,
+            "Flags": 2,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "sns_geomag_rv  Non-wakeup",
+            "Vendor": "QTI",
+            "StringType": "android.sensor.geomagnetic_rotation_vector",
+            "Version": 1,
+            "Type": 20,
+            "MinDelay": 10000,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 200000,
+            "Id": 0,
+            "MaxRange": 1,
+            "Resolution": 0.009999999776482582,
+            "Power": 1.0499999523162842,
+            "Flags": 0,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "pick_up_motion  Wakeup",
+            "Vendor": "oplus",
+            "StringType": "android.sensor.tilt_detector",
+            "Version": 1,
+            "Type": 22,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 1,
+            "Resolution": 1,
+            "Power": 0.0010000000474974513,
+            "Flags": 7,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "device_orient  Non-wakeup",
+            "Vendor": "oplus",
+            "StringType": "android.sensor.device_orientation",
+            "Version": 1,
+            "Type": 27,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 1,
+            "Resolution": 1,
+            "Power": 0.0010000000474974513,
+            "Flags": 2,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "stationary_detect",
+            "Vendor": "QTI",
+            "StringType": "android.sensor.stationary_detect",
+            "Version": 1,
+            "Type": 29,
+            "MinDelay": -1,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 1,
+            "Resolution": 1,
+            "Power": 0.0010000000474974513,
+            "Flags": 4,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "motion_detect",
+            "Vendor": "QTI",
+            "StringType": "android.sensor.motion_detect",
+            "Version": 1,
+            "Type": 30,
+            "MinDelay": -1,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 1,
+            "Resolution": 1,
+            "Power": 0.02500000037252903,
+            "Flags": 4,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "icm4x6xx Accelerometer-Uncalibrated Non-wakeup",
+            "Vendor": "TDK-Invensense",
+            "StringType": "android.sensor.accelerometer_uncalibrated",
+            "Version": 309,
+            "Type": 35,
+            "MinDelay": 2000,
+            "FifoReservedEventCount": 3000,
+            "MaxDelay": 1000000,
+            "Id": 0,
+            "MaxRange": 156.90640258789062,
+            "Resolution": 0.004788403399288654,
+            "Power": 0.23999999463558197,
+            "Flags": 2432,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "OPLUS Fusion Light Sensor Next Gen",
+            "Vendor": "OPLUS",
+            "StringType": "android.sensor.light",
+            "Version": 1,
+            "Type": 5,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 65535,
+            "Resolution": 1,
+            "Power": 0.07999999821186066,
+            "Flags": 2,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "OPLUS Fusion RGB Sensor",
+            "Vendor": "OPLUS",
+            "StringType": "qti.sensor.rgb",
+            "Version": 1,
+            "Type": 33171001,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 65535,
+            "Resolution": 1,
+            "Power": 0.07999999821186066,
+            "Flags": 2,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "sensor_logger  Non-wakeup",
+            "Vendor": "oplus",
+            "StringType": "qti.sensor.sensor_logger",
+            "Version": 1,
+            "Type": 33171024,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 1,
+            "Resolution": 0.009999999776482582,
+            "Power": 0.0010000000474974513,
+            "Flags": 2,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "tcs3720 Oplus Wise_RGB Sensor Non-wakeup",
+            "Vendor": "oplus",
+            "StringType": "qti.sensor.wise_rgb",
+            "Version": 16,
+            "Type": 33171028,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 65535,
+            "Resolution": 0.10000000149011612,
+            "Power": 0.07999999821186066,
+            "Flags": 2,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "lux_aod  Wakeup",
+            "Vendor": "oplus",
+            "StringType": "qti.sensor.lux_aod",
+            "Version": 1,
+            "Type": 33171032,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 1,
+            "Resolution": 0.009999999776482582,
+            "Power": 0.0010000000474974513,
+            "Flags": 3,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "pedometer_minute  Wakeup",
+            "Vendor": "oplus",
+            "StringType": "qti.sensor.pedometer_minute",
+            "Version": 1,
+            "Type": 33171034,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 1,
+            "Resolution": 0.009999999776482582,
+            "Power": 0.0010000000474974513,
+            "Flags": 3,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "elevator_detect  Wakeup",
+            "Vendor": "oplus",
+            "StringType": "qti.sensor.elevator_detect",
+            "Version": 1,
+            "Type": 33171036,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 1,
+            "Resolution": 0.009999999776482582,
+            "Power": 0.0010000000474974513,
+            "Flags": 3,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "oplus_activity_recognition  Wakeup",
+            "Vendor": "oplus",
+            "StringType": "qti.sensor.oplus_activity_recognition",
+            "Version": 1,
+            "Type": 33171037,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 1,
+            "Resolution": 0.009999999776482582,
+            "Power": 0.0010000000474974513,
+            "Flags": 3,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "stk37600 Oplus RGB Sensor Rear Non-wakeup",
+            "Vendor": "oplus",
+            "StringType": "qti.sensor.rgb_rear",
+            "Version": 17,
+            "Type": 33171052,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 65535,
+            "Resolution": 1,
+            "Power": 0.07999999821186066,
+            "Flags": 2,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "stk37600 Oplus Flicker Sensor Rear Non-wakeup",
+            "Vendor": "oplus",
+            "StringType": "qti.sensor.flicker_rear",
+            "Version": 17,
+            "Type": 33171054,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 65535,
+            "Resolution": 1,
+            "Power": 0.07999999821186066,
+            "Flags": 2,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "stk37600 Oplus Ambient Light Sensor Rear Non-wakeup",
+            "Vendor": "oplus",
+            "StringType": "qti.sensor.light_rear",
+            "Version": 17,
+            "Type": 33171055,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 65535,
+            "Resolution": 1,
+            "Power": 0.07999999821186066,
+            "Flags": 2,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "tcs3720 Oplus High_pwm Light Sensor Non-wakeup",
+            "Vendor": "oplus",
+            "StringType": "qti.sensor.high_pwm_rgb",
+            "Version": 16,
+            "Type": 33171070,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 65535,
+            "Resolution": 0.10000000149011612,
+            "Power": 0.07999999821186066,
+            "Flags": 2,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "tcs3720 Oplus High_pwm CCT Sensor Non-wakeup",
+            "Vendor": "oplus",
+            "StringType": "qti.sensor.high_pwm_cct",
+            "Version": 16,
+            "Type": 33171074,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 65535,
+            "Resolution": 0.10000000149011612,
+            "Power": 0.07999999821186066,
+            "Flags": 2,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "oplus_back_tap_detect  Wakeup",
+            "Vendor": "oplus",
+            "StringType": "qti.sensor.backtap",
+            "Version": 1,
+            "Type": 33171077,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 1,
+            "Resolution": 0.009999999776482582,
+            "Power": 0.0010000000474974513,
+            "Flags": 7,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "oplus_rotation_detect  Wakeup",
+            "Vendor": "oplus",
+            "StringType": "qti.sensor.rotation",
+            "Version": 1,
+            "Type": 33171078,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 1,
+            "Resolution": 0.009999999776482582,
+            "Power": 0.0010000000474974513,
+            "Flags": 3,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "palm palm Sensor Wakeup",
+            "Vendor": "oplus",
+            "StringType": "qti.sensor.palm",
+            "Version": 1,
+            "Type": 33171079,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 300,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 5,
+            "Resolution": 0.009999999776482582,
+            "Power": 0.0010000000474974513,
+            "Flags": 3,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "lay_detect  Non-wakeup",
+            "Vendor": "oplus",
+            "StringType": "qti.sensor.lay_detect",
+            "Version": 1,
+            "Type": 33171082,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 1,
+            "Resolution": 0.009999999776482582,
+            "Power": 0.0010000000474974513,
+            "Flags": 2,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "oplus_backclip_detect  Wakeup",
+            "Vendor": "oplus",
+            "StringType": "qti.sensor.backclip",
+            "Version": 1,
+            "Type": 33171084,
+            "MinDelay": 0,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 0,
+            "Id": 0,
+            "MaxRange": 1,
+            "Resolution": 0.009999999776482582,
+            "Power": 0.0010000000474974513,
+            "Flags": 7,
+            "RequiredPermission": "RequiredPermission"
+        },
+        {
+            "Name": "Dynamic Sensor Manager",
+            "Vendor": "Google",
+            "StringType": "android.sensor.dynamic_sensor_meta",
+            "Version": 1,
+            "Type": 32,
+            "MinDelay": 1000,
+            "FifoReservedEventCount": 0,
+            "MaxDelay": 1000,
+            "Id": 0,
+            "MaxRange": 1,
+            "Resolution": 1,
+            "Power": 0.0010000000474974513,
+            "Flags": 7,
+            "RequiredPermission": "RequiredPermission"
+        }
+    ],
+    "cpuinfo": "processor\t: 0\nBogoMIPS\t: 38.40\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd80\nCPU revision\t: 1\n\nprocessor\t: 1\nBogoMIPS\t: 38.40\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd80\nCPU revision\t: 1\n\nprocessor\t: 2\nBogoMIPS\t: 38.40\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd80\nCPU revision\t: 1\n\nprocessor\t: 3\nBogoMIPS\t: 38.40\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd81\nCPU revision\t: 1\n\nprocessor\t: 4\nBogoMIPS\t: 38.40\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd81\nCPU revision\t: 1\n\nprocessor\t: 5\nBogoMIPS\t: 38.40\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd81\nCPU revision\t: 1\n\nprocessor\t: 6\nBogoMIPS\t: 38.40\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd81\nCPU revision\t: 1\n\nprocessor\t: 7\nBogoMIPS\t: 38.40\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd82\nCPU revision\t: 1\n\n",
+    "cpuinfos": [
+        {
+            "name": "cpu7",
+            "freq": 633600,
+            "maxfreq": 2803200,
+            "minfreq": 480000,
+            "availfreq": "480000 633600 787200 960000 1094400 1209600 1324800 1459200 1651200 1766400 1900800 2150400 2304000 2457600 2668800 2803200"
+        },
+        {
+            "name": "cpu5",
+            "freq": 1920000,
+            "maxfreq": 2611200,
+            "minfreq": 480000,
+            "availfreq": "480000 633600 787200 940800 1056000 1190400 1286400 1401600 1497600 1593600 1708800 1824000 1920000 2073600 2188800 2361600 2572800 2611200"
+        },
+        {
+            "name": "cpu3",
+            "freq": 1920000,
+            "maxfreq": 2611200,
+            "minfreq": 480000,
+            "availfreq": "480000 633600 787200 940800 1056000 1190400 1286400 1401600 1497600 1593600 1708800 1824000 1920000 2073600 2188800 2361600 2572800 2611200"
+        },
+        {
+            "name": "cpu1",
+            "freq": 1708800,
+            "maxfreq": 1900800,
+            "minfreq": 364800,
+            "availfreq": "364800 441600 595200 787200 902400 1017600 1113600 1228800 1344000 1478400 1593600 1708800 1843200 1900800"
+        },
+        {
+            "name": "cpu6",
+            "freq": 1920000,
+            "maxfreq": 2611200,
+            "minfreq": 480000,
+            "availfreq": "480000 633600 787200 940800 1056000 1190400 1286400 1401600 1497600 1593600 1708800 1824000 1920000 2073600 2188800 2361600 2572800 2611200"
+        },
+        {
+            "name": "cpu4",
+            "freq": 1920000,
+            "maxfreq": 2611200,
+            "minfreq": 480000,
+            "availfreq": "480000 633600 787200 940800 1056000 1190400 1286400 1401600 1497600 1593600 1708800 1824000 1920000 2073600 2188800 2361600 2572800 2611200"
+        },
+        {
+            "name": "cpu2",
+            "freq": 1708800,
+            "maxfreq": 1900800,
+            "minfreq": 364800,
+            "availfreq": "364800 441600 595200 787200 902400 1017600 1113600 1228800 1344000 1478400 1593600 1708800 1843200 1900800"
+        },
+        {
+            "name": "cpu0",
+            "freq": 1708800,
+            "maxfreq": 1900800,
+            "minfreq": 364800,
+            "availfreq": "364800 441600 595200 787200 902400 1017600 1113600 1228800 1344000 1478400 1593600 1708800 1843200 1900800"
+        }
+    ],
+    "deviceId": "43C110FA10EB3191141CED13752978884D99AB901D0FC76767753B664DE7B4B5",
+    "sysinfo": {
+        "disksize": "235131695104",
+        "datadiskid": "0000FE64#0000000",
+        "rootdiskid": "0000FE30#0000000",
+        "memorysize": "7661535232",
+        "hostver": "#1 SMP PREEMPT Sat Sep 13 04:31:54 UTC 2025",
+        "hostrel": "6.1.118-android14-11-o-gec5b8640d173",
+        "hostmachine": "aarch64"
+    },
+    "telinfo": {
+        "oaid": "69AB959AFADA413FA3CF2A4604207980e9615146736b030fc50d573e68cfce4f"
+    },
+    "serviceList": "Found 514 services:\n0\tAtlasService: [android.atlas.service]\n1\tDockObserver: []\n2\tICyberSense: [com.oplus.nas.cybersense.sdk.ICyberSense]\n3\tISubsysRadio: [com.oplus.telephony.ISubsysRadio]\n4\tIVirtualComm: [com.oplus.virtualcomm.IVirtualCommService]\n5\tMMListService: [IMMListService]\n6\tOPLUSExService: [android.os.IOplusExService]\n7\tOplusLocationManager: []\n8\tOplusShoulderPressureManagerService: []\n9\tSpecailizerPLService: []\n10\tSurfaceFlinger: [android.ui.ISurfaceComposer]\n11\tSurfaceFlingerAIDL: [android.gui.ISurfaceComposer]\n12\tTheiaBinderService: []\n13\taccessibility: [android.view.accessibility.IAccessibilityManager]\n14\taccount: [android.accounts.IAccountManager]\n15\tactivity: [android.app.IActivityManager]\n16\tactivity_task: [android.app.IActivityTaskManager]\n17\tadb: []\n18\tadditionald: [android.os.IOplusService]\n19\tadservices_manager: []\n20\taiwidget: [com.oplus.aiwidget.IAIWidgetManagerService]\n21\talarm: [android.app.IAlarmManager]\n22\talipay: [android.hardware.alipay.IAlipayService]\n23\tandroid.frameworks.cameraservice.service.ICameraService/default: []\n24\tandroid.frameworks.location.altitude.IAltitudeService/default: []\n25\tandroid.frameworks.sensorservice.ISensorManager/default: []\n26\tandroid.frameworks.stats.IStats/default: [android.frameworks.stats.IStats]\n27\tandroid.frameworks.vibrator.IVibratorControlService/default: []\n28\tandroid.hardware.biometrics.face.IFace/default: []\n29\tandroid.hardware.biometrics.fingerprint.IFingerprint/default: []\n30\tandroid.hardware.bluetooth.audio.IBluetoothAudioProviderFactory/default: []\n31\tandroid.hardware.boot.IBootControl/default: []\n32\tandroid.hardware.camera.provider.ICameraProvider/vendor_qti/0: []\n33\tandroid.hardware.cas.IMediaCasService/default: [android.hardware.cas.IMediaCasService]\n34\tandroid.hardware.drm.IDrmFactory/clearkey: [android.hardware.drm.IDrmFactory]\n35\tandroid.hardware.drm.IDrmFactory/wfdhdcp: [android.hardware.drm.IDrmFactory]\n36\tandroid.hardware.drm.IDrmFactory/widevine: [android.hardware.drm.IDrmFactory]\n37\tandroid.hardware.gatekeeper.IGatekeeper/default: []\n38\tandroid.hardware.gnss.IGnss/default: []\n39\tandroid.hardware.graphics.allocator.IAllocator/default: [android.hardware.graphics.allocator.IAllocator]\n40\tandroid.hardware.graphics.composer3.IComposer/default: []\n41\tandroid.hardware.health.IHealth/default: []\n42\tandroid.hardware.identity.IIdentityCredentialStore/default: []\n43\tandroid.hardware.ir.IConsumerIr/default: []\n44\tandroid.hardware.light.ILights/default: []\n45\tandroid.hardware.media.c2.IComponentStore/software: [android.hardware.media.c2.IComponentStore]\n46\tandroid.hardware.nfc.INfc/default: []\n47\tandroid.hardware.power.IPower/default: []\n48\tandroid.hardware.power.stats.IPowerStats/default: []\n49\tandroid.hardware.radio.config.IRadioConfig/default: []\n50\tandroid.hardware.radio.data.IRadioData/slot1: []\n51\tandroid.hardware.radio.data.IRadioData/slot2: []\n52\tandroid.hardware.radio.messaging.IRadioMessaging/slot1: []\n53\tandroid.hardware.radio.messaging.IRadioMessaging/slot2: []\n54\tandroid.hardware.radio.modem.IRadioModem/slot1: []\n55\tandroid.hardware.radio.modem.IRadioModem/slot2: []\n56\tandroid.hardware.radio.network.IRadioNetwork/slot1: []\n57\tandroid.hardware.radio.network.IRadioNetwork/slot2: []\n58\tandroid.hardware.radio.sap.ISap/slot1: []\n59\tandroid.hardware.radio.sap.ISap/slot2: []\n60\tandroid.hardware.radio.sim.IRadioSim/slot1: []\n61\tandroid.hardware.radio.sim.IRadioSim/slot2: []\n62\tandroid.hardware.radio.voice.IRadioVoice/slot1: []\n63\tandroid.hardware.radio.voice.IRadioVoice/slot2: []\n64\tandroid.hardware.secure_element.ISecureElement/SIM1: []\n65\tandroid.hardware.secure_element.ISecureElement/SIM2: []\n66\tandroid.hardware.secure_element.ISecureElement/eSE1: []\n67\tandroid.hardware.security.keymint.IKeyMintDevice/default: []\n68\tandroid.hardware.security.keymint.IKeyMintDevice/strongbox: []\n69\tandroid.hardware.security.keymint.IRemotelyProvisionedComponent/default: []\n70\tandroid.hardware.security.keymint.IRemotelyProvisionedComponent/strongbox: []\n71\tandroid.hardware.security.secureclock.ISecureClock/default: []\n72\tandroid.hardware.security.sharedsecret.ISharedSecret/default: []\n73\tandroid.hardware.security.sharedsecret.ISharedSecret/strongbox: []\n74\tandroid.hardware.sensors.ISensors/default: []\n75\tandroid.hardware.tetheroffload.IOffload/default: []\n76\tandroid.hardware.thermal.IThermal/default: []\n77\tandroid.hardware.usb.IUsb/default: []\n78\tandroid.hardware.vibrator.IVibrator/default: []\n79\tandroid.hardware.weaver.IWeaver/default: []\n80\tandroid.hardware.wifi.IWifi/default: []\n81\tandroid.hardware.wifi.supplicant.ISupplicant/default: []\n82\tandroid.media.audio.IHalAdapterVendorExtension/default: [android.media.audio.IHalAdapterVendorExtension]\n83\tandroid.os.UpdateEngineService: []\n84\tandroid.os.UpdateEngineStableService: []\n85\tandroid.se.omapi.ISecureElementService/default: []\n86\tandroid.security.apc: [android.security.apc.IProtectedConfirmation]\n87\tandroid.security.authorization: []\n88\tandroid.security.identity: [android.security.identity.ICredentialStoreFactory]\n89\tandroid.security.legacykeystore: [android.security.legacykeystore.ILegacyKeystore]\n90\tandroid.security.maintenance: [android.security.maintenance.IKeystoreMaintenance]\n91\tandroid.security.metrics: []\n92\tandroid.service.gatekeeper.IGateKeeperService: [android.service.gatekeeper.IGateKeeperService]\n93\tandroid.system.keystore2.IKeystoreService/default: [android.system.keystore2.IKeystoreService]\n94\tandroid.system.net.netd.INetd/default: []\n95\tandroid.system.suspend.ISystemSuspend/default: []\n96\tanti_root_dialog: []\n97\tapp_binding: []\n98\tapp_compatibility: [com.oplus.compatibility.IOplusCompatibilityService]\n99\tapp_hibernation: [android.apphibernation.IAppHibernationService]\n100\tapp_integrity: []\n101\tapp_search: [android.app.appsearch.aidl.IAppSearchManager]\n102\tappops: [com.android.internal.app.IAppOpsService]\n103\tappwidget: [com.android.internal.appwidget.IAppWidgetService]\n104\tartd: []\n105\tathenaservice: []\n106\tatomacq: []\n107\tattention: []\n108\tattestation_verification: [android.security.attestationverification.IAttestationVerificationManagerService]\n109\taudio: [android.media.IAudioService]\n110\tauth: [android.hardware.biometrics.IAuthService]\n111\tautofill: [android.view.autofill.IAutoFillManager]\n112\tbackground_install_control: []\n113\tbackup: [android.app.backup.IBackupManager]\n114\tbattery: []\n115\tbatteryproperties: [android.os.IBatteryPropertiesRegistrar]\n116\tbatterystats: [com.android.internal.app.IBatteryStats]\n117\tbinder_calls_stats: []\n118\tbiometric: [android.hardware.biometrics.IBiometricService]\n119\tblob_store: [android.app.blob.IBlobStoreManager]\n120\tbluetooth_manager: [android.bluetooth.IBluetoothManager]\n121\tbugreport: [android.os.IDumpstate]\n122\tcabc: []\n123\tcacheinfo: []\n124\tcarrier_config: [com.android.internal.telephony.ICarrierConfigLoader]\n125\tclipboard: [android.content.IClipboard]\n126\tcmcc5gslice: [android.cmccslice.ICmccSliceManager]\n127\tcolor_display: [android.hardware.display.IColorDisplayManager]\n128\tcolor_screenshot: [com.oplus.screenshot.IOplusScreenshotManager]\n129\tcommscene: [com.oplus.commscene.ICommScene]\n130\tcompaniondevice: [android.companion.ICompanionDeviceManager]\n131\tconnectivity: [android.net.IConnectivityManager]\n132\tconnectivity_native: [android.net.connectivity.aidl.ConnectivityNative]\n133\tconnmetrics: [android.net.IIpConnectivityMetrics]\n134\tconsumer_ir: [android.hardware.IConsumerIrService]\n135\tcontent: [android.content.IContentService]\n136\tcountry_detector: [android.location.ICountryDetector]\n137\tcpuinfo: []\n138\tcredential: [android.credentials.ICredentialManager]\n139\tcritical.log: []\n140\tcross_device_service: []\n141\tcrossprofileapps: [android.content.pm.ICrossProfileApps]\n142\tdataloader_manager: []\n143\tdbinfo: []\n144\tdevice_config: []\n145\tdevice_identifiers: [android.os.IDeviceIdentifiersPolicyService]\n146\tdevice_lock: [android.devicelock.IDeviceLockService]\n147\tdevice_policy: [android.app.admin.IDevicePolicyManager]\n148\tdevice_state: [android.hardware.devicestate.IDeviceStateManager]\n149\tdeviceidle: [android.os.IDeviceIdleController]\n150\tdevicestoragemonitor: []\n151\tdiskstats: []\n152\tdisplay: [android.hardware.display.IDisplayManager]\n153\tdisplay.smomoservice: [android.display.ISmomoService]\n154\tdnsresolver: []\n155\tdomain_verification: [android.content.pm.verify.domain.IDomainVerificationManager]\n156\tdpmservice: []\n157\tdreams: [android.service.dreams.IDreamManager]\n158\tdrm.drmManager: [drm.IDrmManagerService]\n159\tdropbox: [com.android.internal.os.IDropBoxManagerService]\n160\tdynamic_filter: [com.oplus.filter.IDynamicFilterService]\n161\tdynamic_system: []\n162\tecm_enhanced_confirmation: [android.app.ecm.IEnhancedConfirmationManager]\n163\temergency_affordance: []\n164\tengineer: []\n165\tengineer_fw: [com.android.server.engineering.IOplusEngineerFwService]\n166\tethernet: [android.net.IEthernetManager]\n167\texternal_vibrator_service: []\n168\tface: [android.hardware.face.IFaceService]\n169\tfeature_flags: [android.flags.IFeatureFlags]\n170\tfile_integrity: [android.security.IFileIntegrityService]\n171\tfingerprint: [android.hardware.fingerprint.IFingerprintService]\n172\tfont: [com.android.internal.graphics.fonts.IFontManager]\n173\tgaiad: []\n174\tgame: [android.app.IGameManagerService]\n175\tgfxinfo: []\n176\tgpu: [android.graphicsenv.IGpuService]\n177\tgrammatical_inflection: [android.app.IGrammaticalInflectionManager]\n178\tgraphicsstats: [android.view.IGraphicsStats]\n179\tgsiservice: []\n180\tguardelfthermalcontrol: []\n181\thardware_properties: [android.os.IHardwarePropertiesManager]\n182\thealthconnect: [android.health.connect.aidl.IHealthConnectService]\n183\theimdall: [com.oplus.heimdall.IHeimdallService]\n184\thorae: [com.oplus.horae.IHoraeService]\n185\timms: [com.android.internal.telephony.IMms]\n186\tincident: []\n187\tincidentcompanion: [android.os.IIncidentCompanion]\n188\tincremental: []\n189\tinput: [android.hardware.input.IInputManager]\n190\tinput_method: [com.android.internal.view.IInputMethodManager]\n191\tinputflinger: []\n192\tinstalld: []\n193\tions: [com.android.internal.telephony.IOns]\n194\tiopgp.service: []\n195\tiphonesubinfo: [com.android.internal.telephony.IPhoneSubInfo]\n196\tipsec: [android.net.IIpSecService]\n197\tisms: [com.android.internal.telephony.ISms]\n198\tisms_ext: [com.oplus.telephony.ISmsExt]\n199\tisub: [com.android.internal.telephony.ISub]\n200\tisub_ext: [com.oplus.telephony.ISubExt]\n201\tjobscheduler: [android.app.job.IJobScheduler]\n202\tlauncherapps: [android.content.pm.ILauncherApps]\n203\tlegacy_permission: [android.permission.ILegacyPermissionManager]\n204\tlights: [android.hardware.lights.ILightsManager]\n205\tlinearmotor: [com.oplus.os.ILinearmotorVibratorService]\n206\tlocale: [android.app.ILocaleManager]\n207\tlocation: [android.location.ILocationManager]\n208\tlocation_time_zone_manager: []\n209\tlock_settings: [com.android.internal.widget.ILockSettings]\n210\tlogcat: []\n211\tlooper_stats: []\n212\tmanager: []\n213\tmdns: []\n214\tmedia.aaudio: [aaudio.IAAudioService]\n215\tmedia.audio_flinger: [android.media.IAudioFlingerService]\n216\tmedia.audio_policy: [android.media.IAudioPolicyService]\n217\tmedia.camera: [android.hardware.ICameraService]\n218\tmedia.camera.proxy: []\n219\tmedia.extractor: [android.IMediaExtractorService]\n220\tmedia.metrics: [android.media.IMediaMetricsService]\n221\tmedia.player: [android.media.IMediaPlayerService]\n222\tmedia.resource_manager: [android.media.IResourceManagerService]\n223\tmedia.resource_observer: [android.media.IResourceObserverService]\n224\tmedia_communication: [android.media.IMediaCommunicationService]\n225\tmedia_metrics: [android.media.metrics.IMediaMetricsManager]\n226\tmedia_projection: [android.media.projection.IMediaProjectionManager]\n227\tmedia_resource_monitor: [android.media.IMediaResourceMonitor]\n228\tmedia_router: [android.media.IMediaRouterService]\n229\tmedia_session: [android.media.session.ISessionManager]\n230\tmediaturbo: [com.oplus.aidl.INativeMediaTurboSevice]\n231\tmeminfo: []\n232\tmemtrack.proxy: [android.hardware.memtrack.IMemtrack]\n233\tmidasd: []\n234\tmidi: [android.media.midi.IMidiManager]\n235\tmount: [android.os.storage.IStorageManager]\n236\tmultimediaDaemon: [com.oplus.atlas.IOplusMMAtlasService]\n237\tnearby: [android.nearby.INearbyManager]\n238\tnetd: []\n239\tnetd_listener: []\n240\tnetpolicy: [android.net.INetworkPolicyManager]\n241\tnetstats: [android.net.INetworkStatsService]\n242\tnetwork_management: [android.os.INetworkManagementService]\n243\tnetwork_score: []\n244\tnetwork_stack: []\n245\tnetwork_time_update_service: []\n246\tnetwork_watchlist: []\n247\tnetworking_control: [android.net.IOplusNetworkingControlManager]\n248\tnetworkless: [com.oplus.internal.evolution.INetworkless]\n249\tneuronsystem: [com.oplus.neuron.INeuronSystemService]\n250\tnfc: [android.nfc.INfcAdapter]\n251\tnfcextnsservice: []\n252\tnotification: [android.app.INotificationManager]\n253\tnwdiagnose: [com.android.internal.telephony.INetworkDiagnoseService]\n254\toappnetcontrol: [android.nwpower.IOAppNetControl]\n255\tobrain: [com.oplus.midas.IOplusObrain]\n256\tocenter: [com.oplus.ocenter.api.IOCenter]\n257\tocvt_system_service: []\n258\toem_lock: []\n259\toemlinklatency: [com.android.internal.telephony.IOemLinkLatencyManager]\n260\toiface: [com.oppo.oiface.IOIfaceService]\n261\tolc: [android.os.olc.IOlcService]\n262\tolowlatency: [com.android.internal.telephony.IOplusLowLatency]\n263\ton_device_intelligence: [android.app.ondeviceintelligence.IOnDeviceIntelligenceManager]\n264\tondevicepersonalization_system_service: []\n265\tonetrace: [android.os.IOplusTraceService]\n266\toperator: [android.operator.IOplusOperatorManager]\n267\toplus.hans.IHansComunication: []\n268\toplus_accesscontrol: [com.oplus.app.IOplusAccessControlManager]\n269\toplus_app_cache_service: []\n270\toplus_app_data_service: []\n271\toplus_battery_stats_service: []\n272\toplus_freeze: [com.oplus.app.IOplusHansFreezeManager]\n273\toplus_media_control: []\n274\toplus_nec: [com.oplus.nec.IOplusNecService]\n275\toplus_perf_service: [com.oplus.performance.IOplusPerfService]\n276\toplus_systemanropt_service: [android.app.ISystemAnrOptService]\n277\toplus_telephony_ext: [com.android.internal.telephony.IOplusTelephonyExt]\n278\toplus_telephony_internal_ext: [com.android.internal.telephony.IOplusTelephonyInternalExt]\n279\toplus_tile: [com.oplus.quicksettings.IOplusTileManagerService]\n280\toplus_vrr_service: [com.oplus.vrr.IOPlusRefreshRate]\n281\topluscustomize: [android.os.customize.IOplusCustomizeService]\n282\topluscvt: []\n283\toplusdatalimit: [com.oplus.network.IOplusDataLimit]\n284\toplusdevicepolicy: [android.os.oplusdevicepolicy.IOplusDevicePolicyManagerService]\n285\toplusdynamicvsync: [com.oplus.dynamicvsync.IOplusDynamicVsync]\n286\topluslinkkit: [com.oplus.network.IOlk]\n287\toplusnaspower: []\n288\toplusnetcmd: []\n289\toplusnetd: []\n290\toplusnetworkengineer: [com.oplus.network.IOplusNetworkTcForEngineer]\n291\toplusnetworkmanagement: []\n292\toplusnetworkstack: [com.oplus.network.IOplusNetworkStack]\n293\toplusnetworkstats: []\n294\toplusoiface: [com.oplus.oiface.IOIfaceService]\n295\topluspreodex: []\n296\toplusscreenmode: [com.oplus.screenmode.IOplusScreenMode]\n297\toplusstoragemanagerservice: [android.os.storage.IOplusStorageManagerService]\n298\topluswifikitservice: [android.net.wifi.IOplusWifiManager]\n299\tosensemanager: [com.oplus.osense.IOsenseResManager]\n300\tostats_pullerd: []\n301\tostats_tpd: []\n302\tostatsd: []\n303\tosysnetcontrol: [com.oplus.nwpower.IOSysNetControl]\n304\toverlay: []\n305\tpac_proxy: [android.net.IPacProxyManager]\n306\tpackage: [android.content.pm.IPackageManager]\n307\tpackage_native: [android.content.pm.IPackageManagerNative]\n308\tpeople: [android.app.people.IPeopleManager]\n309\tperformance_hint: [android.os.IHintManager]\n310\tpermission: [android.os.IPermissionController]\n311\tpermission_checker: [android.permission.IPermissionChecker]\n312\tpermissionmgr: [android.permission.IPermissionManager]\n313\tpersistent_data_block: []\n314\tphone: [com.android.internal.telephony.ITelephony]\n315\tpinner: []\n316\tplatform_compat: [com.android.internal.compat.IPlatformCompat]\n317\tplatform_compat_native: [com.android.internal.compat.IPlatformCompatNative]\n318\tplmn_carrier_config: [com.android.internal.telephony.IPlmnCarrierConfigLoader]\n319\tpower: [android.os.IPowerManager]\n320\tpower_monitor: []\n321\tpowerstats: [android.os.IPowerStatsService]\n322\tprint: [android.print.IPrintManager]\n323\tprocessinfo: []\n324\tprocstats: [com.android.internal.app.procstats.IProcessStats]\n325\tprofiling_service: [android.os.IProfilingService]\n326\treboot_readiness: [android.scheduling.IRebootReadinessManager]\n327\trecovery: []\n328\tremote_provisioning: []\n329\tresources: []\n330\trestrictions: [android.content.IRestrictionsManager]\n331\trole: [android.app.role.IRoleManager]\n332\trollback: [android.content.rollback.IRollbackManager]\n333\truntime: []\n334\tsafety_center: [android.safetycenter.ISafetyCenterManager]\n335\tscheduling_policy: []\n336\tsdk_sandbox: [android.app.sdksandbox.ISdkSandboxManager]\n337\tsearch: [android.app.ISearchManager]\n338\tsec_key_att_app_id_provider: [android.security.keystore.IKeyAttestationApplicationIdProvider]\n339\tsecrecy: [android.secrecy.ISecrecyService]\n340\tsecure_element: []\n341\tsecurity_permission: [android.os.ISecurityPermissionService]\n342\tsecurity_state: [android.os.ISecurityStateManager]\n343\tsensitive_content_protection_service: [android.view.ISensitiveContentProtectionManager]\n344\tsensor_privacy: [android.hardware.ISensorPrivacyManager]\n345\tsensorservice: [android.gui.SensorServer]\n346\tserial: []\n347\tservicediscovery: [android.net.nsd.INsdManager]\n348\tsettings: []\n349\tshortcut: [android.content.pm.IShortcutService]\n350\tsimphonebook: [com.android.internal.telephony.IIccPhoneBook]\n351\tslice: [android.app.slice.ISliceManager]\n352\tsoundtrigger: [com.android.internal.app.ISoundTriggerService]\n353\tsoundtrigger_middleware: []\n354\tspeech_recognition: [android.speech.IRecognitionServiceManager]\n355\tstamp_service: [com.oplus.exsystemservice.postman.IOplusStampService]\n356\tstats: []\n357\tstatsbootstrap: []\n358\tstatscompanion: []\n359\tstatsmanager: []\n360\tstatusbar: [com.android.internal.statusbar.IStatusBarService]\n361\tstorage_healthinfo: [android.os.storage.IStorageHealthInfoService]\n362\tstoragecompressdedup: []\n363\tstoraged: []\n364\tstoraged_pri: []\n365\tstoragestats: [android.app.usage.IStorageStatsManager]\n366\tsuspend_control: []\n367\tsuspend_control_internal: []\n368\tsystem_config: []\n369\tsystem_server_dumper: []\n370\tsystem_update: []\n371\ttelecom: [com.android.internal.telecom.ITelecomService]\n372\ttelephony.registry: [com.android.internal.telephony.ITelephonyRegistry]\n373\ttelephony_ims: [android.telephony.ims.aidl.IImsRcsController]\n374\ttelephony_registry_ext: [com.android.internal.telephony.ITelephonyRegistryExt]\n375\ttestharness: []\n376\ttethering: [android.net.ITetheringConnector]\n377\ttextclassification: [android.service.textclassifier.ITextClassifierService]\n378\ttextservices: [com.android.internal.textservice.ITextServicesManager]\n379\ttexttospeech: [android.speech.tts.ITextToSpeechManager]\n380\ttheia: []\n381\tthermalservice: [android.os.IThermalService]\n382\ttime_detector: [android.app.timedetector.ITimeDetectorService]\n383\ttime_zone_detector: [android.app.timezonedetector.ITimeZoneDetectorService]\n384\ttracing.proxy: []\n385\ttransparency: []\n386\ttrust: [android.app.trust.ITrustManager]\n387\ttsa_bpf_service: []\n388\tuimode: [android.app.IUiModeManager]\n389\tupdatelock: []\n390\turi_grants: [android.app.IUriGrantsManager]\n391\tusage: [android.os.IOplusUsageService]\n392\tusagestats: [android.app.usage.IUsageStatsManager]\n393\tusb: [android.hardware.usb.IUsbManager]\n394\tuser: [android.os.IUserManager]\n395\tvcn_management: [android.net.vcn.IVcnManagementService]\n396\tvendor.nxp.nxpnfc_aidl.INxpNfc/default: []\n397\tvendor.oplus.hardware.binaural_record.IBinauralRecordProviderFactory/default: []\n398\tvendor.oplus.hardware.biometrics.fingerprintpay.IFingerprintPay/default: []\n399\tvendor.oplus.hardware.camera.aon.IAONService/default: []\n400\tvendor.oplus.hardware.camera_rfi.ICameraRfiService/default: []\n401\tvendor.oplus.hardware.cammidasservice.IMIDASService/default: []\n402\tvendor.oplus.hardware.charger.ICharger/default: []\n403\tvendor.oplus.hardware.commondcs.ICommonDcsAidlHalService/default: []\n404\tvendor.oplus.hardware.communicationcenter.IDmtpService/default: []\n405\tvendor.oplus.hardware.cryptoeng.ICryptoeng/default: []\n406\tvendor.oplus.hardware.cwb.ICwbService/default: []\n407\tvendor.oplus.hardware.display.MixLut3D.IMixLut3D/default: []\n408\tvendor.oplus.hardware.displaycolorfeature.IDisplayColorFeature/default: []\n409\tvendor.oplus.hardware.displaypanelfeature.IDisplayPanelFeature/default: []\n410\tvendor.oplus.hardware.eid.IEidDevice/default: []\n411\tvendor.oplus.hardware.engineer.IEngineer/default: []\n412\tvendor.oplus.hardware.fido.fido2ca.IFidoDaemon/default: []\n413\tvendor.oplus.hardware.fido.fidoca.IFidoDaemon/default: []\n414\tvendor.oplus.hardware.gameopt.IGameOptHalService/default: []\n415\tvendor.oplus.hardware.handlefactory.IHandleFactory/default: []\n416\tvendor.oplus.hardware.ims.IImsStable/OplusImsRadio0: []\n417\tvendor.oplus.hardware.ims.IImsStable/OplusImsRadio1: []\n418\tvendor.oplus.hardware.keymint.IKeymintExt/strongbox: []\n419\tvendor.oplus.hardware.misc.IOplusMisc/default: []\n420\tvendor.oplus.hardware.nfc.IOplusNfc/default: []\n421\tvendor.oplus.hardware.nfcExtns.INfcExtns/default: []\n422\tvendor.oplus.hardware.olc2.IOplusLogCore/default: []\n423\tvendor.oplus.hardware.oplusSensor.ISensorFeature/default: []\n424\tvendor.oplus.hardware.performance.IPerformance/default: [vendor.oplus.hardware.performance.IPerformance]\n425\tvendor.oplus.hardware.power.powermonitor.IPowerMonitor/default: []\n426\tvendor.oplus.hardware.radio.IRadioStable/OplusRadio0: []\n427\tvendor.oplus.hardware.radio.IRadioStable/OplusRadio1: []\n428\tvendor.oplus.hardware.riskdetect.IRiskDetect/default: []\n429\tvendor.oplus.hardware.rpmh.IRpmh/default: []\n430\tvendor.oplus.hardware.sendextcamcmd.ISendExtCamCmdService/default: []\n431\tvendor.oplus.hardware.stability.oplus_project.IOplusProject/default: []\n432\tvendor.oplus.hardware.subsys_interface.subsys.ISubsys/default: []\n433\tvendor.oplus.hardware.subsys_interface.subsys_radio.ISubsysRadio/slot1: []\n434\tvendor.oplus.hardware.subsys_interface.subsys_radio.ISubsysRadio/slot2: []\n435\tvendor.oplus.hardware.touch.IOplusTouch/default: []\n436\tvendor.oplus.hardware.transmessage.ITransmessge/default: []\n437\tvendor.oplus.hardware.urcc.IUrcc/default: []\n438\tvendor.oplus.hardware.virtual_device.audio.IStatusProvider/default: []\n439\tvendor.oplus.hardware.weaver.IWeaverExt/default: []\n440\tvendor.oplus.hardware.wifi.IOplusWifiService/default: []\n441\tvendor.oplus.hardware.wifi.supplicant.IOplusSupplicant/default: []\n442\tvendor.perfservice: [com.qualcomm.qti.IPerfManager]\n443\tvendor.qspmsvc: [Qspmsvc]\n444\tvendor.qti.ImsRtpService.IRTPService/ImsRtpService: []\n445\tvendor.qti.data.factoryservice.IFactory/default: []\n446\tvendor.qti.data.txpwrservice.ITxPwrService/default: []\n447\tvendor.qti.gnss.ILocAidlGnss/default: []\n448\tvendor.qti.hardware.camera.aon.IAONService/default: []\n449\tvendor.qti.hardware.camera.offlinecamera.IOfflineCameraService/default: []\n450\tvendor.qti.hardware.data.connectionaidl.IDataConnection/slot1: []\n451\tvendor.qti.hardware.data.connectionaidl.IDataConnection/slot2: []\n452\tvendor.qti.hardware.data.connectionfactory.IFactory/slot0: []\n453\tvendor.qti.hardware.data.connectionfactory.IFactory/slot1: []\n454\tvendor.qti.hardware.data.iwlandata.IIWlan/slot1: []\n455\tvendor.qti.hardware.data.iwlandata.IIWlan/slot2: []\n456\tvendor.qti.hardware.display.color.IDisplayColor/default: []\n457\tvendor.qti.hardware.display.config.IDisplayConfig/default: []\n458\tvendor.qti.hardware.display.postproc.IDisplayPostproc/default: []\n459\tvendor.qti.hardware.dpmaidlservice.IDpmService/default: []\n460\tvendor.qti.hardware.mwqemadapteraidlservice.IMwqemAdapter/MwqemAdapter: []\n461\tvendor.qti.hardware.perf2.IPerf/default: []\n462\tvendor.qti.hardware.power.powermodule.IPowerModule/default: []\n463\tvendor.qti.hardware.qconfig.IQConfig/default: []\n464\tvendor.qti.hardware.qseecom.IQSEECom/default: []\n465\tvendor.qti.hardware.qspa.IQspa/default: []\n466\tvendor.qti.hardware.qxr.IQXRAudioService/default: []\n467\tvendor.qti.hardware.qxr.IQXRCamService/default: []\n468\tvendor.qti.hardware.qxr.IQXRCoreService/default: []\n469\tvendor.qti.hardware.qxr.IQXRModService/default: []\n470\tvendor.qti.hardware.qxr.IQXRSplitService/default: []\n471\tvendor.qti.hardware.radio.am.IQcRilAudio/slot1: []\n472\tvendor.qti.hardware.radio.am.IQcRilAudio/slot2: []\n473\tvendor.qti.hardware.radio.atfwd.IAtFwd/AtFwdAidl: []\n474\tvendor.qti.hardware.radio.ims.IImsRadio/imsradio0: []\n475\tvendor.qti.hardware.radio.ims.IImsRadio/imsradio1: []\n476\tvendor.qti.hardware.radio.internal.deviceinfo.IDeviceInfo/deviceinfo: []\n477\tvendor.qti.hardware.radio.lpa.IUimLpa/UimLpa0: []\n478\tvendor.qti.hardware.radio.lpa.IUimLpa/UimLpa1: []\n479\tvendor.qti.hardware.radio.qcrilhook.IQtiOemHook/oemhook0: []\n480\tvendor.qti.hardware.radio.qcrilhook.IQtiOemHook/oemhook1: []\n481\tvendor.qti.hardware.radio.qtiradio.IQtiRadioStable/slot1: []\n482\tvendor.qti.hardware.radio.qtiradio.IQtiRadioStable/slot2: []\n483\tvendor.qti.hardware.radio.qtiradioconfig.IQtiRadioConfig/default: []\n484\tvendor.qti.hardware.radio.uim.IUim/Uim0: []\n485\tvendor.qti.hardware.radio.uim.IUim/Uim1: []\n486\tvendor.qti.hardware.radio.uim_remote_client.IUimRemoteServiceClient/uimRemoteClient0: []\n487\tvendor.qti.hardware.radio.uim_remote_client.IUimRemoteServiceClient/uimRemoteClient1: []\n488\tvendor.qti.hardware.radio.uim_remote_server.IUimRemoteServiceServer/uimRemoteServer0: []\n489\tvendor.qti.hardware.radio.uim_remote_server.IUimRemoteServiceServer/uimRemoteServer1: []\n490\tvendor.qti.hardware.sensorscalibrate.ISensorsCalibrate/default: []\n491\tvendor.qti.hardware.servicetrackeraidl.IServicetracker/default: []\n492\tvendor.qti.hardware.soter.ISoter/default: []\n493\tvendor.qti.hardware.wifi.supplicant.ISupplicantVendor/default: []\n494\tvendor.qti.ims.datachannelservice.IDataChannelService/default: []\n495\tvendor.qti.ims.factoryaidlservice.IImsFactory/default: []\n496\tvendor.qti.qccvndhal_aidl.IQccvndhal/qccvndhal: []\n497\tvendor.qti.qesdhalaidl.IQesdhal/default: [vendor.qti.qesdhalaidl.IQesdhal]\n498\tvendor.qti.qhcp.IQHDC/default: []\n499\tvendor.qti.qspmhal.IQspmhal/default: [vendor.qti.qspmhal.IQspmhal]\n500\tvibrator_manager: [android.os.IVibratorManagerService]\n501\tvirtualdevice: [android.companion.virtual.IVirtualDeviceManager]\n502\tvirtualdevice_native: [android.companion.virtualnative.IVirtualDeviceManagerNative]\n503\tvoiceinteraction: [com.android.internal.app.IVoiceInteractionManagerService]\n504\tvold: []\n505\tvpn_management: [android.net.IVpnManager]\n506\twallpaper: [android.app.IWallpaperManager]\n507\twearable_sensing: [android.app.wearable.IWearableSensingManager]\n508\twebviewupdate: [android.webkit.IWebViewUpdateService]\n509\twifi: [android.net.wifi.IWifiManager]\n510\twifinl80211: []\n511\twifip2p: [android.net.wifi.p2p.IWifiP2pManager]\n512\twifiscanner: [android.net.wifi.IWifiScanner]\n513\twindow: [android.view.IWindowManager]\n",
+    "featuresex": "[{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"com.oplus.software.children_space_google_play_exp\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.sensor.proximity\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"com.quicinc.voice.assist.asr\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.sensor.accelerometer\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.controls\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.faketouch\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.telecom\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.telephony.subscription\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"com.oplus.software.children_space_google_play_gdpr\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.usb.accessory\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"oppo.back.touch.fingerprint.sensor\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.telephony.cdma\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.telephony.data\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.telephony.mbms\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.sensor.dynamic.head_tracker\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.backup\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.touchscreen\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.touchscreen.multitouch\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"oppo.common.support.curved.display\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.erofs\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.print\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.consumerir\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.activities_on_secondary_displays\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"oplus.software.support_gp.type_phone\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.device_lock\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"oppo.ovs.smartmic.support\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.voice_recognizers\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.picture_in_picture\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.fingerprint\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.sensor.gyroscope\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.audio.low_latency\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":132580097,\"name\":\"android.software.vulkan.deqp.level\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.cant_save_state\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"oplus.hardware.pwd_retrieve_settings\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.security.model.compatible\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.telephony.messaging\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.telephony.calling\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"oplus.all.client\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.opengles.aep\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"oplus.software.support_gp.product_full\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.bluetooth\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.window_magnification\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.telephony.radio.access\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.camera.autofocus\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.telephony.gsm\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.telephony.ims\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":2,\"name\":\"android.software.incremental_delivery\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.sip.voip\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.se.omapi.ese\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":132580097,\"name\":\"android.software.opengles.deqp.level\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"oplus.software.view.rgbnormalize\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"oplus.secrecy.support\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"oplus.software.gallery.olive\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"oplus.hardware.weaver_locksettings\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.camera.concurrent\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.usb.host\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"oppo.hardware.fingerprint.optical.support\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.audio.output\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"com.google.android.feature.services_updater\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.ipsec_tunnel_migration\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"oplus.obrain.support\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.verified_boot\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.camera.flash\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.camera.front\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.se.omapi.uicc\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":300,\"name\":\"android.hardware.strongbox_keystore\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.screen.portrait\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.nfc\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"com.android.se\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"com.nxp.mifare\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"cn.google.services\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.sensor.stepdetector\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.home_screen\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"oplus.software.video.roiencode_support\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.microphone\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.autofill\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"oplus.software.support_gp.brand_realme\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.securely_removes_users\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.bluetooth_le\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.sensor.compass\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.touchscreen.multitouch.jazzhand\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.app_widgets\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.sdksandbox.sdk_install_work_profile\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.input_methods\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"oplus.hardware.fingerprint.unlock_without_icon.support\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.sensor.light\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"oppo.breeno.three.words.support\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":4206592,\"name\":\"android.hardware.vulkan.version\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.companion_device_setup\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.device_admin\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.wifi.passpoint\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.camera\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.credentials\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.screen.landscape\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.device_id_attestation\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.ram.normal\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"oplus.software.permission.direction_sensor\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"com.qualcomm.qti.feature.DCF_OFFLOAD\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.managed_users\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.webview\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.sensor.stepcounter\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.camera.capability.manual_post_processing\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.camera.any\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.camera.capability.raw\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.vulkan.compute\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.touchscreen.multitouch.distinct\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.location.network\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.cts\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.sip\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.camera.capability.manual_sensor\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.app_enumeration\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.camera.level.full\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.wifi.direct\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.live_wallpaper\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.ipsec_tunnels\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.audio.pro\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.nfc.hcef\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.nfc.uicc\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.location.gps\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.midi\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.nfc.any\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.nfc.ese\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.nfc.hce\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":300,\"name\":\"android.hardware.hardware_keystore\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.wifi\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.location\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":1,\"name\":\"android.hardware.vulkan.level\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.keystore.app_attest_key\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"oplus.software.audio.karaoke_v2.support\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"oplus.software.support_gp.region_domestic\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"oplus.software.vibration_alarm_clock\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.secure_lock_screen\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.biometrics.face\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.hardware.telephony\"},{\"flags\":0,\"reqGlEsVersion\":0,\"version\":0,\"name\":\"android.software.file_based_encryption\"},{\"flags\":0,\"reqGlEsVersion\":196610,\"version\":0}]",
+    "librarys": "library:android.ext.adservices\nlibrary:android.ext.shared\nlibrary:android.hidl.base-V1.0-java\nlibrary:android.hidl.manager-V1.0-java\nlibrary:android.net.ipsec.ike\nlibrary:android.telephony.satellite\nlibrary:android.test.base\nlibrary:android.test.mock\nlibrary:android.test.runner\nlibrary:androidx.camera.extensions.impl\nlibrary:androidx.window.extensions\nlibrary:androidx.window.sidecar\nlibrary:com.android.cts.ctsshim.shared_library\nlibrary:com.android.extensions.appfunctions\nlibrary:com.android.future.usb.accessory\nlibrary:com.android.location.provider\nlibrary:com.android.media.remotedisplay\nlibrary:com.android.mediadrm.signer\nlibrary:com.android.nfc_extras\nlibrary:com.google.android.gms\nlibrary:com.oplus.camera.unit.sdk\nlibrary:com.oplus.camera.unit.sdk.adapter\nlibrary:com.oppo.camera.unit.sdk\nlibrary:com.qti.dpmapi\nlibrary:com.qti.dpmframework\nlibrary:com.qti.location.sdk\nlibrary:com.qualcomm.qcrilhook\nlibrary:com.qualcomm.qmapbridge\nlibrary:com.qualcomm.qti.audiosphere\nlibrary:com.qualcomm.qti.imscmservice-V2.0-java\nlibrary:com.qualcomm.qti.imscmservice-V2.1-java\nlibrary:com.qualcomm.qti.imscmservice-V2.2-java\nlibrary:com.qualcomm.qti.uim.uimservicelibrary\nlibrary:com.qualcomm.uimremoteclientlibrary\nlibrary:com.qualcomm.uimremoteserverlibrary\nlibrary:com.vendor.nfc\nlibrary:com.wapi.wapicertstore\nlibrary:datachannellib\nlibrary:dpmapi\nlibrary:ims-ext-common\nlibrary:javax.obex\nlibrary:libAPSClient-cmd-jni-extension.oplus.so\nlibrary:libAncFilter.so\nlibrary:libOpenCL.so\nlibrary:libOplusStringJNI-extension.oplus.so\nlibrary:libQEGA.qti.so\nlibrary:libSloganJni.oplus.so\nlibrary:libadsprpc.so\nlibrary:libapssuspend-jni.oplus.so\nlibrary:libarcsoft_scbokeh_video.so\nlibrary:libbinauralrenderer_wrapper.qti.so\nlibrary:libcdsprpc.so\nlibrary:libfastcvopt.so\nlibrary:libhoaeffects.qti.so\nlibrary:liblistenjni.qti.so\nlibrary:libortc_so.oplus.so\nlibrary:libqape.qti.so\nlibrary:libqesdk_ndk_platform.qti.so\nlibrary:libqti-perfd-client.so\nlibrary:libsatellite_audio_jni.oplus.so\nlibrary:libsatellite_ostx_jni.oplus.so\nlibrary:libsdsprpc.so\nlibrary:libsoundtouch.oplus.so\nlibrary:libsoundtouch_jni.oplus.so\nlibrary:libsuperNight.oplus.so\nlibrary:libthermalclient.qti.so\nlibrary:libupdateprof.qti.so\nlibrary:nfcvendorlib\nlibrary:opex.odmf\nlibrary:oplus-subsys-tool\nlibrary:oplus-subsystem-service\nlibrary:org.apache.http.legacy\nlibrary:org.ifaa.android.manager.permissions\nlibrary:qti-telephony-hidl-wrapper\nlibrary:qti-telephony-hidl-wrapper-prd\nlibrary:qti-telephony-utils\nlibrary:rsmcService\nlibrary:services.core\nlibrary:vendor-oplus-hardware-cryptoeng-V1.0\nlibrary:vendor-oplus-hardware-riskdetect-V1\nlibrary:vendor-oplus-hardware.biometrics.fingerprintpay-V1.0\nlibrary:vendor-oplus-hardware.fido.fido2ca-V1.0\nlibrary:vendor-oplus-hardware.fido.fidoca-V1.0\nlibrary:vendor.oplus.hardware.charger\nlibrary:vendor.oplus.hardware.charger-V1\nlibrary:vendor.oplus.hardware.engineer-V1-java\nlibrary:vendor.oplus.hardware.keymint\nlibrary:vendor.oplus.hardware.misc-V1\nlibrary:vendor.oplus.hardware.oplusSensor-V1-java\nlibrary:vendor.oplus.hardware.osml\nlibrary:vendor.oplus.hardware.pogo_keyboard\nlibrary:vendor.oplus.hardware.rpmh-V1\nlibrary:vendor.oplus.hardware.stability.oplus_project\nlibrary:vendor.oplus.hardware.stability.oplus_project-V1\nlibrary:vendor.oplus.hardware.touch-V1\nlibrary:vendor.oplus.hardware.transmessage\nlibrary:vendor.oplus.hardware.transmessage-V1.0\nlibrary:vendor.oplus.hardware.weaver\nlibrary:vendor.qti.hardware.sensorscalibrate-V1\nlibrary:vendor.qti.ims.connection-V1.0-java\nlibrary:vendor.qti.ims.connectionaidlservice-V1-java\nlibrary:vendor.qti.ims.datachannelservice-V2-java\nlibrary:vendor.qti.ims.factory-V2.0-java\nlibrary:vendor.qti.ims.factory-V2.1-java\nlibrary:vendor.qti.ims.factory-V2.2-java\nlibrary:vendor.qti.ims.factoryaidlservice-V1-java\nlibrary:vendor.qti.ims.rcssip-V1.0-java\nlibrary:vendor.qti.ims.rcssip-V1.1-java\nlibrary:vendor.qti.ims.rcssip-V1.2-java\nlibrary:vendor.qti.ims.rcssipaidlservice-V1-java\nlibrary:vendor.qti.ims.rcsuce-V1.0-java\nlibrary:vendor.qti.ims.rcsuce-V1.1-java\nlibrary:vendor.qti.ims.rcsuce-V1.2-java\nlibrary:vendor.qti.ims.rcsuceaidlservice-V1-java\nlibrary:vendor.qti.imsdatachannel\n",
+    "allcellinfo": []
+}
