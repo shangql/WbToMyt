@@ -186,6 +186,7 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+        
         .hint {
             font-size: 0.85rem;
             color: #666;
@@ -218,18 +219,18 @@
             <!-- 输入面板 -->
             <div class="panel">
                 <div class="panel-header">
-                    📥 输入数据（微霸2026格式）
+                    📥 输入数据
                 </div>
                 <div class="panel-body">
-                    <textarea id="inputData" placeholder='请输入微霸采集的JSON数据...&#10;&#10;示例格式：&#10;{&#10;  "code": 1,&#10;  "data": {&#10;    "build.BOARD": "NIC-LX2",&#10;    "build.BRAND": "HONOR"&#10;  }&#10;}'></textarea>
-                    <p class="hint">请输入微霸2026采集的JSON数据（包含 data 字段）</p>
+                    <textarea id="inputData" placeholder='请输入JSON数据（包含 code 和 data 字段）'></textarea>
+                    <p class="hint">输入格式与 res_1.json 一致：{"code": 1, "data": {...}}</p>
                 </div>
             </div>
             
             <!-- 输出面板 -->
             <div class="panel panel-output">
                 <div class="panel-header output">
-                    📤 输出结果（魔云腾格式）
+                    📤 输出结果
                 </div>
                 <div class="panel-body">
                     <textarea id="outputData" placeholder="转换结果将显示在这里..." readonly></textarea>
@@ -261,8 +262,6 @@
         async function convert() {
             const inputText = document.getElementById('inputData').value.trim();
             const outputTextarea = document.getElementById('outputData');
-            const statsDiv = document.getElementById('stats');
-            const matchedCountDiv = document.getElementById('matchedCount');
             const loadingDiv = document.getElementById('loading');
             const statusDiv = document.getElementById('status');
             
@@ -284,7 +283,6 @@
             loadingDiv.classList.add('active');
             statusDiv.className = 'status';
             outputTextarea.value = '';
-            statsDiv.style.display = 'none';
             
             try {
                 const response = await fetch('/convert', {
@@ -292,26 +290,19 @@
                     headers: {
                         'Content-Type': 'application/json'
                     },
-                    body: JSON.stringify({
-                        input_data: inputData
-                    })
+                    body: JSON.stringify(inputData)
                 });
                 
                 const result = await response.json();
                 
                 loadingDiv.classList.remove('active');
                 
-                if (result.success) {
-                    // 显示转换结果
-                    outputTextarea.value = JSON.stringify(result.data, null, 4);
-                    
-                    // 显示统计信息
-                    matchedCountDiv.textContent = result.stats.rate;
-                    statsDiv.style.display = 'block';
-                    
+                if (response.ok) {
+                    // 直接显示转换结果
+                    outputTextarea.value = JSON.stringify(result, null, 4);
                     showStatus('✅ 转换成功！', 'success');
                 } else {
-                    showStatus('❌ ' + result.message, 'error');
+                    showStatus('❌ ' + (result.error || '转换失败'), 'error');
                 }
             } catch (e) {
                 loadingDiv.classList.remove('active');
@@ -334,32 +325,6 @@
             statusDiv.textContent = message;
             statusDiv.className = 'status ' + type;
         }
-        
-        // 加载示例数据
-        function loadSample() {
-            const sampleData = {
-                "code": 1,
-                "data": {
-                    "build.BOARD": "NIC-LX2",
-                    "build.BRAND": "HONOR",
-                    "build.VERSION.SDK": "28",
-                    "build.VERSION.RELEASE": "9",
-                    "build.DEVICE": "NIC-LX2",
-                    "build.MODEL": "NIC-LX2",
-                    "build.MANUFACTURER": "HONOR",
-                    "phone.NetworkOperatorName": "中国电信",
-                    "phone.SimOperatorName": "中国电信",
-                    "hardware.dpi": 480,
-                    "hardware.density": 3
-                }
-            };
-            document.getElementById('inputData').value = JSON.stringify(sampleData, null, 4);
-        }
-        
-        // 页面加载时加载示例数据
-        window.onload = function() {
-            loadSample();
-        };
     </script>
 </body>
 </html>

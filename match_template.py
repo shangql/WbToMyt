@@ -5,6 +5,7 @@
 功能：读取模板文件和输入数据，通过模糊匹配将输入数据填充到模板中，输出到指定目录
 """
 
+import copy
 import json
 import os
 import re
@@ -150,8 +151,8 @@ def match_template_with_input(template: Dict, input_data: Dict) -> Dict:
     Returns:
         填充后的模板数据
     """
-    # 深度复制模板
-    result = json.loads(json.dumps(template))
+    # 深度复制模板（保持原始键值对顺序）
+    result = copy.deepcopy(template)
     
     # 统计匹配信息
     matched_count = 0
@@ -172,7 +173,7 @@ def match_template_with_input(template: Dict, input_data: Dict) -> Dict:
                 if str(description) in item:
                     item[str(description)] = matched_value
     
-    print(f"匹配统计: {matched_count}/{total_count} 项匹配成功")
+    return result
     
     return result
 
