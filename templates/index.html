@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>微霸2026 转 魔云腾格式转换工具</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .panel {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        .panel-header {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 15px 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        
+        .panel-header.output {
+            background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+        }
+        
+        .panel-body {
+            padding: 20px;
+        }
+        
+        textarea {
+            width: 100%;
+            height: 500px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 15px;
+            font-family: "Consolas", "Monaco", monospace;
+            font-size: 14px;
+            resize: vertical;
+            transition: border-color 0.3s;
+        }
+        
+        textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .panel-output textarea {
+            background: #f8f9fa;
+        }
+        
+        .button-group {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .btn {
+            padding: 15px 50px;
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+        
+        .btn-secondary {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            box-shadow: 0 4px 15px rgba(245, 87, 108, 0.4);
+        }
+        
+        .btn-secondary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(245, 87, 108, 0.6);
+        }
+        
+        .stats {
+            text-align: center;
+            margin-top: 20px;
+            padding: 15px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 8px;
+            color: white;
+        }
+        
+        .stats .matched {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        
+        .status {
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 8px;
+            display: none;
+        }
+        
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            display: block;
+        }
+        
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+            display: block;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .loading.active {
+            display: block;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .hint {
+            font-size: 0.85rem;
+            color: #666;
+            margin-top: 5px;
+        }
+        
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            
+            textarea {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔄 微霸2026 转 魔云腾格式</h1>
+            <p>将微霸采集的机型数据转换为魔云腾数字孪生平台格式</p>
+        </div>
+        
+        <div class="main-content">
+            <!-- 输入面板 -->
+            <div class="panel">
+                <div class="panel-header">
+                    📥 输入数据（微霸2026格式）
+                </div>
+                <div class="panel-body">
+                    <textarea id="inputData" placeholder='请输入微霸采集的JSON数据...&#10;&#10;示例格式：&#10;{&#10;  "code": 1,&#10;  "data": {&#10;    "build.BOARD": "NIC-LX2",&#10;    "build.BRAND": "HONOR"&#10;  }&#10;}'></textarea>
+                    <p class="hint">请输入微霸2026采集的JSON数据（包含 data 字段）</p>
+                </div>
+            </div>
+            
+            <!-- 输出面板 -->
+            <div class="panel panel-output">
+                <div class="panel-header output">
+                    📤 输出结果（魔云腾格式）
+                </div>
+                <div class="panel-body">
+                    <textarea id="outputData" placeholder="转换结果将显示在这里..." readonly></textarea>
+                </div>
+            </div>
+        </div>
+        
+        <div class="button-group">
+            <button class="btn btn-primary" onclick="convert()">🔄 开始转换</button>
+            <button class="btn btn-secondary" onclick="clearAll()">🗑️ 清空</button>
+        </div>
+        
+        <div class="stats" id="stats" style="display: none;">
+            <div>匹配统计：</div>
+            <div class="matched" id="matchedCount">0/0</div>
+            <div>项匹配成功</div>
+        </div>
+        
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p style="margin-top: 10px;">正在转换中...</p>
+        </div>
+        
+        <div class="status" id="status"></div>
+    </div>
+    
+    <script>
+        // 转换函数
+        async function convert() {
+            const inputText = document.getElementById('inputData').value.trim();
+            const outputTextarea = document.getElementById('outputData');
+            const statsDiv = document.getElementById('stats');
+            const matchedCountDiv = document.getElementById('matchedCount');
+            const loadingDiv = document.getElementById('loading');
+            const statusDiv = document.getElementById('status');
+            
+            // 验证输入
+            if (!inputText) {
+                showStatus('请输入要转换的数据！', 'error');
+                return;
+            }
+            
+            let inputData;
+            try {
+                inputData = JSON.parse(inputText);
+            } catch (e) {
+                showStatus('JSON 格式错误：' + e.message, 'error');
+                return;
+            }
+            
+            // 显示加载状态
+            loadingDiv.classList.add('active');
+            statusDiv.className = 'status';
+            outputTextarea.value = '';
+            statsDiv.style.display = 'none';
+            
+            try {
+                const response = await fetch('/convert', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        input_data: inputData
+                    })
+                });
+                
+                const result = await response.json();
+                
+                loadingDiv.classList.remove('active');
+                
+                if (result.success) {
+                    // 显示转换结果
+                    outputTextarea.value = JSON.stringify(result.data, null, 4);
+                    
+                    // 显示统计信息
+                    matchedCountDiv.textContent = result.stats.rate;
+                    statsDiv.style.display = 'block';
+                    
+                    showStatus('✅ 转换成功！', 'success');
+                } else {
+                    showStatus('❌ ' + result.message, 'error');
+                }
+            } catch (e) {
+                loadingDiv.classList.remove('active');
+                showStatus('❌ 网络错误：' + e.message, 'error');
+            }
+        }
+        
+        // 清空函数
+        function clearAll() {
+            document.getElementById('inputData').value = '';
+            document.getElementById('outputData').value = '';
+            document.getElementById('stats').style.display = 'none';
+            document.getElementById('status').className = 'status';
+            document.getElementById('status').style.display = 'none';
+        }
+        
+        // 显示状态消息
+        function showStatus(message, type) {
+            const statusDiv = document.getElementById('status');
+            statusDiv.textContent = message;
+            statusDiv.className = 'status ' + type;
+        }
+        
+        // 加载示例数据
+        function loadSample() {
+            const sampleData = {
+                "code": 1,
+                "data": {
+                    "build.BOARD": "NIC-LX2",
+                    "build.BRAND": "HONOR",
+                    "build.VERSION.SDK": "28",
+                    "build.VERSION.RELEASE": "9",
+                    "build.DEVICE": "NIC-LX2",
+                    "build.MODEL": "NIC-LX2",
+                    "build.MANUFACTURER": "HONOR",
+                    "phone.NetworkOperatorName": "中国电信",
+                    "phone.SimOperatorName": "中国电信",
+                    "hardware.dpi": 480,
+                    "hardware.density": 3
+                }
+            };
+            document.getElementById('inputData').value = JSON.stringify(sampleData, null, 4);
+        }
+        
+        // 页面加载时加载示例数据
+        window.onload = function() {
+            loadSample();
+        };
+    </script>
+</body>
+</html>
