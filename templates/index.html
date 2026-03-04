@@ -271,7 +271,7 @@
         
         <div class="loading" id="loading">
             <div class="spinner"></div>
-            <p style="margin-top: 10px;">正在转换中...</p>
+            <p style="margin-top: 10px;" id="loadingText">正在处理中...</p>
         </div>
         
         <div class="status" id="status"></div>
@@ -283,7 +283,11 @@
             const inputText = document.getElementById('inputData').value.trim();
             const outputTextarea = document.getElementById('outputData');
             const loadingDiv = document.getElementById('loading');
+            const loadingText = document.getElementById('loadingText');
             const statusDiv = document.getElementById('status');
+            
+            // 设置 loading 文字
+            loadingText.textContent = '正在转换中...';
             
             // 验证输入
             if (!inputText) {
@@ -340,28 +344,71 @@
         
         // 下载示例文件
         function downloadSample() {
+            const loadingDiv = document.getElementById('loading');
+            const loadingText = document.getElementById('loadingText');
+            const statusDiv = document.getElementById('status');
+            
+            // 设置 loading 文字
+            loadingText.textContent = '正在下载示例...';
+            
+            loadingDiv.classList.add('active');
+            statusDiv.className = 'status';
+            
             fetch('/sample/res_1.json')
                 .then(response => response.json())
                 .then(data => {
+                    // 加载到输入框
                     document.getElementById('inputData').value = JSON.stringify(data, null, 4);
-                    showStatus('✅ 已加载示例数据', 'success');
+                    // 同时下载文件
+                    const blob = new Blob([JSON.stringify(data, null, 4)], { type: 'application/json' });
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'res_1.json';
+                    a.click();
+                    URL.revokeObjectURL(url);
+                    
+                    // 延迟关闭动画，确保动画显示足够时间
+                    setTimeout(() => {
+                        loadingDiv.classList.remove('active');
+                        showStatus('✅ 示例文件已加载并下载', 'success');
+                    }, 800);
                 })
                 .catch(err => {
-                    showStatus('❌ 加载示例失败: ' + err.message, 'error');
+                    setTimeout(() => {
+                        loadingDiv.classList.remove('active');
+                        showStatus('❌ 加载示例失败: ' + err.message, 'error');
+                    }, 800);
                 });
         }
         
         // 一键复制输出
         function copyOutput() {
             const outputText = document.getElementById('outputData').value;
+            const loadingDiv = document.getElementById('loading');
+            const loadingText = document.getElementById('loadingText');
+            
+            // 设置 loading 文字
+            loadingText.textContent = '正在复制...';
+            
             if (!outputText) {
                 showStatus('⚠️ 没有可复制的内容', 'error');
                 return;
             }
+            
+            loadingDiv.classList.add('active');
+            
             navigator.clipboard.writeText(outputText).then(() => {
-                showStatus('✅ 已复制到剪贴板', 'success');
+                // 延迟关闭动画，确保动画显示足够时间
+                setTimeout(() => {
+                    loadingDiv.classList.remove('active');
+                    showStatus('✅ 已复制到剪贴板', 'success');
+                }, 800);
             }).catch(err => {
-                showStatus('❌ 复制失败: ' + err.message, 'error');
+                setTimeout(() => {
+                    loadingDiv.classList.remove('active');
+                    showStatus('❌ 复制失败: ' + err.message, 'error');
+                }, 800);
             });
         }
         
