@@ -28,6 +28,23 @@ def index():
     return render_template('index.html')
 
 
+@app.route('/sample/<filename>')
+def download_sample(filename):
+    """下载示例文件"""
+    if filename != 'res_1.json':
+        return Response(json.dumps({"error": "文件不存在"}), status=404, mimetype='application/json')
+    
+    sample_path = os.path.join(BASE_DIR, 'input', filename)
+    if not os.path.exists(sample_path):
+        return Response(json.dumps({"error": "示例文件不存在"}), status=404, mimetype='application/json')
+    
+    # 读取文件并返回
+    with open(sample_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    return Response(content, mimetype='application/json')
+
+
 @app.route('/convert', methods=['POST'])
 def convert():
     """

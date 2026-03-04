@@ -59,6 +59,24 @@
             padding: 15px 20px;
             font-size: 1.2rem;
             font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .btn-small {
+            padding: 6px 12px;
+            font-size: 0.85rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            transition: background 0.3s;
+        }
+        
+        .btn-small:hover {
+            background: rgba(255,255,255,0.3);
         }
         
         .panel-header.output {
@@ -219,7 +237,8 @@
             <!-- 输入面板 -->
             <div class="panel">
                 <div class="panel-header">
-                    📥 输入数据
+                    <span>📥 输入数据</span>
+                    <button class="btn-small" onclick="downloadSample()">📥 下载示例</button>
                 </div>
                 <div class="panel-body">
                     <textarea id="inputData" placeholder='请输入JSON数据（包含 code 和 data 字段）'></textarea>
@@ -230,7 +249,8 @@
             <!-- 输出面板 -->
             <div class="panel panel-output">
                 <div class="panel-header output">
-                    📤 输出结果
+                    <span>📤 输出结果</span>
+                    <button class="btn-small" onclick="copyOutput()">📋 一键复制</button>
                 </div>
                 <div class="panel-body">
                     <textarea id="outputData" placeholder="转换结果将显示在这里..." readonly></textarea>
@@ -314,9 +334,35 @@
         function clearAll() {
             document.getElementById('inputData').value = '';
             document.getElementById('outputData').value = '';
-            document.getElementById('stats').style.display = 'none';
             document.getElementById('status').className = 'status';
             document.getElementById('status').style.display = 'none';
+        }
+        
+        // 下载示例文件
+        function downloadSample() {
+            fetch('/sample/res_1.json')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('inputData').value = JSON.stringify(data, null, 4);
+                    showStatus('✅ 已加载示例数据', 'success');
+                })
+                .catch(err => {
+                    showStatus('❌ 加载示例失败: ' + err.message, 'error');
+                });
+        }
+        
+        // 一键复制输出
+        function copyOutput() {
+            const outputText = document.getElementById('outputData').value;
+            if (!outputText) {
+                showStatus('⚠️ 没有可复制的内容', 'error');
+                return;
+            }
+            navigator.clipboard.writeText(outputText).then(() => {
+                showStatus('✅ 已复制到剪贴板', 'success');
+            }).catch(err => {
+                showStatus('❌ 复制失败: ' + err.message, 'error');
+            });
         }
         
         // 显示状态消息
