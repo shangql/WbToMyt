@@ -191,7 +191,7 @@ def generate_output_filename() -> str:
 def main():
     """主函数"""
     # 定义路径
-    base_dir = r"C:\Users\Administrator\PyCharmMiscProject"
+    base_dir = r"C:\Users\Administrator\PycharmProjects\WbToMyt"
     template_path = os.path.join(base_dir, "template", "myt-origin.json")
     input_path = os.path.join(base_dir, "input", "res_1.json")
     output_dir = os.path.join(base_dir, "myoutput")
