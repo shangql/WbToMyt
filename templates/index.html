@@ -250,7 +250,10 @@
             <div class="panel panel-output">
                 <div class="panel-header output">
                     <span>📤 输出结果</span>
-                    <button class="btn-small" onclick="copyOutput()">📋 一键复制</button>
+                    <div>
+                        <button class="btn-small" onclick="downloadOutput()">📥 下载结果</button>
+                        <button class="btn-small" onclick="copyOutput()">📋 一键复制</button>
+                    </div>
                 </div>
                 <div class="panel-body">
                     <textarea id="outputData" placeholder="转换结果将显示在这里..." readonly></textarea>
@@ -410,6 +413,50 @@
                     showStatus('❌ 复制失败: ' + err.message, 'error');
                 }, 800);
             });
+        }
+        
+        // 下载输出结果
+        function downloadOutput() {
+            const outputText = document.getElementById('outputData').value;
+            const loadingDiv = document.getElementById('loading');
+            const loadingText = document.getElementById('loadingText');
+            
+            // 设置 loading 文字
+            loadingText.textContent = '正在下载...';
+            
+            if (!outputText) {
+                showStatus('⚠️ 没有可下载的内容', 'error');
+                return;
+            }
+            
+            loadingDiv.classList.add('active');
+            
+            try {
+                // 生成带时间戳的文件名
+                const now = new Date();
+                const timestamp = now.toISOString().replace(/[:.]/g, '-').slice(0, 19);
+                const filename = `output_${timestamp}.json`;
+                
+                // 创建 Blob 对象并下载
+                const blob = new Blob([outputText], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = filename;
+                a.click();
+                URL.revokeObjectURL(url);
+                
+                // 延迟关闭动画
+                setTimeout(() => {
+                    loadingDiv.classList.remove('active');
+                    showStatus('✅ 文件已下载: ' + filename, 'success');
+                }, 800);
+            } catch (err) {
+                setTimeout(() => {
+                    loadingDiv.classList.remove('active');
+                    showStatus('❌ 下载失败: ' + err.message, 'error');
+                }, 800);
+            }
         }
         
         // 显示状态消息

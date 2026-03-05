@@ -1,6 +1,51 @@
 # 项目开发规范
 
-本文件定义了在此代码库中开发时应遵循的规范和命令。
+**Generated:** 2026-03-05
+**Project:** 微霸转魔云腾格式转换工具
+
+## 项目概述
+
+| 属性 | 值 |
+|------|-----|
+| 类型 | Python CLI + Web 工具 |
+| 入口 | `match_template.py` (CLI), `web_app.py` (Web) |
+| 依赖 | Flask (Web) |
+
+## 目录结构
+
+```
+./
+├── match_template.py   # 主程序入口（模糊匹配核心逻辑）
+├── web_app.py         # Flask Web 服务入口
+├── template/           # 魔云腾模板 JSON
+├── input/             # 输入数据目录
+├── myoutput/          # 输出结果目录
+├── templates/          # Flask HTML 模板
+├── start.sh/stop.sh   # 启动/停止脚本
+└── AGENTS.md          # 本文件
+```
+
+## 代码地图
+
+| 符号 | 类型 | 位置 | 作用 |
+|------|------|------|------|
+| `fuzzy_match_description` | 函数 | match_template.py:259 | 多策略模糊匹配主入口 |
+| `exact_match` | 函数 | match_template.py:109 | 精确匹配策略 |
+| `suffix_match` | 函数 | match_template.py:134 | 后缀匹配策略 |
+| `special_mapping_match` | 函数 | match_template.py:167 | 特殊字段映射 |
+| `normalize_key` | 函数 | match_template.py:42 | key 标准化 |
+| `match_template_with_input` | 函数 | match_template.py:306 | 模板填充核心 |
+| Flask app | 应用 | web_app.py | REST API |
+
+## 匹配策略优先级
+
+1. 精确匹配 → 2. 后缀匹配 → 3. 特殊映射 → 4. 智能模糊匹配
+
+## 约定（偏离标准处）
+
+- **无包结构**：代码在根目录，无 `src/` 包
+- **硬编码路径**：`match_template.py:360-363` 定义路径
+- **无 `__main__.py`**：`python -m match_template` 不工作
 
 ---
 
