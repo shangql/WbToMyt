@@ -31,18 +31,21 @@
 ## 环境要求
 
 - Python 3.8 或更高版本
+- Docker（用于容器化部署）
 - Windows / macOS / Linux
 
 ## 安装步骤
 
-### 1. 克隆或下载项目
+### 方式一：本地安装
+
+#### 1. 克隆或下载项目
 
 ```bash
 git clone <项目地址>
 cd WbToMyt
 ```
 
-### 2. 创建虚拟环境（推荐）
+#### 2. 创建虚拟环境（推荐）
 
 ```bash
 # Windows
@@ -54,10 +57,53 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-### 3. 安装依赖
+#### 3. 安装依赖
 
 ```bash
 pip install -r requirements.txt
+```
+
+### 方式二：Docker 部署（推荐）
+
+#### 1. 确保 Docker 已安装
+
+在终端中运行以下命令确认 Docker 已正确安装：
+
+```bash
+docker --version
+```
+
+#### 2. 构建 Docker 镜像
+
+```bash
+# 在项目根目录执行
+docker build -t wbTomyt:latest .
+```
+
+#### 3. 运行容器
+
+```bash
+# 运行 Web 服务（端口 8080）
+docker run -d -p 8080:8080 \
+  --name wbTomyt-web \
+  -v $(pwd)/input:/app/input \
+  -v $(pwd)/myoutput:/app/myoutput \
+  -v $(pwd)/template:/app/template \
+  wbTomyt:latest
+
+# Windows PowerShell 使用以下命令
+docker run -d -p 8080:8080 --name wbTomyt-web -v ${PWD}/input:/app/input -v ${PWD}/myoutput:/app/myoutput -v ${PWD}/template:/app/template wbTomyt:latest
+```
+
+#### 4. 访问服务
+
+容器启动后，访问 `http://localhost:8080` 即可使用 Web 界面。
+
+#### 5. 停止容器
+
+```bash
+docker stop wbTomyt-web
+docker rm wbTomyt-web
 ```
 
 ## 使用方法
@@ -260,6 +306,66 @@ A: 在 `match_template.py` 的 `special_mappings` 字典中添加新的映射关
 ### Q: Web 服务无法启动？
 
 A: 确保 8080 端口未被占用，或修改 `web_app.py` 中的端口配置。
+
+## Docker 进阶使用
+
+### 使用 Docker Compose（推荐）
+
+创建 `docker-compose.yml` 文件以简化部署：
+
+```yaml
+version: '3.8'
+
+services:
+  wbTomyt:
+    build: .
+    container_name: wbTomyt-web
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./input:/app/input
+      - ./myoutput:/app/myoutput
+      - ./template:/app/template
+    restart: unless-stopped
+    environment:
+      - FLASK_ENV=production
+```
+
+启动服务：
+
+```bash
+# 启动
+docker-compose up -d
+
+# 查看日志
+docker-compose logs -f
+
+# 停止
+docker-compose down
+```
+
+### Docker 中运行命令行模式
+
+```bash
+# 运行命令行转换
+docker run --rm \
+  -v $(pwd)/input:/app/input \
+  -v $(pwd)/myoutput:/app/myoutput \
+  -v $(pwd)/template:/app/template \
+  wbTomyt:latest python match_template.py
+
+# Windows PowerShell
+docker run --rm -v ${PWD}/input:/app/input -v ${PWD}/myoutput:/app/myoutput -v ${PWD}/template:/app/template wbTomyt:latest python match_template.py
+```
+
+### 自定义端口
+
+如果需要使用其他端口：
+
+```bash
+# 修改映射端口（例如使用 9000）
+docker run -d -p 9000:8080 --name wbTomyt-web wbTomyt:latest
+```
 
 ## 许可证
 

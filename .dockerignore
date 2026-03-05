@@ -1,0 +1,50 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv
+venv/
+ENV/
+.eggs
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 日志
+*.log
+flask.log
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+temp/
+tmp/
+
+# 输出目录（运行时生成）
+myoutput/
+
+# Windows 批处理
+start.cmd
+stop.cmd
